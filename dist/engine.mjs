@@ -1,4 +1,4 @@
-export const VERSION='2026.10.13.3';
+export const VERSION='2026.10.13.4';
 export const CATEGORIES=[
  ['regulations','Regulations & privileges','Rules for the pilot in command',60,'shield','#7471e8'],
  ['airspace','Airspace & VFR','Know where you can fly',60,'layers','#498cea'],
