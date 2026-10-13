@@ -4,7 +4,7 @@ Your personal FAA Private Pilot Airplane (PAR) practice app. Original FAA-based 
 
 ## Start studying
 
-1. Open the app online and wait for **Ready offline**.
+1. Open the app online and give the app a moment to download its offline content.
 2. Start with **Today → Start daily practice**, or choose a subject in **Categories**.
 3. Select an answer, then **Check answer**. Incorrect answers show the correct choice, an FAA-based explanation, the reason your choice is wrong, references, and any required figure.
 4. After the session, try the extra practice prepared for your missed learning objectives. Numeric topics can add new checked scenarios; conceptual topics use the verified bank and clearly label repeat review.
@@ -20,6 +20,8 @@ Aim for three consecutive mock scores of 90% or higher, and review subjects belo
 - Desktop: use your browser's install option if offered.
 
 The app, question content, explanations, and included FAA figures are cached locally. Opening external FAA references and Boldmethod requires internet access. Initial access to the private hosted site requires signing in with the owner's ChatGPT account. Private-hosted authentication and home-screen behavior can vary by browser; local browser tests confirm the app's offline mechanics, not every mobile device's authentication flow.
+
+Use **Categories → Practice figures** for a mixed 20-question session, or choose **Figure questions** in the custom filter of any category. Zoom controls and scrolling let you inspect the original FAA figures. Dropdowns support keyboard navigation, and subtle animations respect reduced-motion preferences.
 
 ## Keep your progress
 
@@ -37,7 +39,7 @@ The app does not scrape or copy Boldmethod's questions. The user chose official 
 
 ## Content and references
 
-- 600 original base questions across 12 categories, with no fixed total-bank cap.
+- 600 original foundational questions plus 60 added figure questions: 660 authored questions across 12 categories, with no fixed total-bank cap.
 - Verified calculation templates support time, groundspeed, distance, fuel endurance, and loaded CG.
 - Five template families recompute answers from their generated inputs. Fuel endurance scenarios explicitly exclude regulatory reserves; add the required reserve when planning a flight.
 - FAA-H-8083-25C, current regulatory/AIM material, FAA-H-8083-28B, FAA-S-ACS-6C, and FAA-CT-8080-2H support the questions. Individual items identify their specific source and location.

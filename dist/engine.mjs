@@ -1,4 +1,4 @@
-export const VERSION='2026.10.13.1';
+export const VERSION='2026.10.13.2';
 export const CATEGORIES=[
  ['regulations','Regulations & privileges','Rules for the pilot in command',60,'shield','#7471e8'],
  ['airspace','Airspace & VFR','Know where you can fly',60,'layers','#498cea'],
@@ -51,7 +51,7 @@ export function recordAnswer(state,q,choice,mode='quiz',now=Date.now()){
 }
 export function selectPractice(bank,state,{category=null,filter='all',count=20,search='',today=false}={}){
  const attempted=new Set(state.attempts.map(a=>a.questionId));let candidates=bank.filter(q=>(!category||q.category===category)&&(!search||`${q.prompt} ${q.choices.map(c=>c.text).join(' ')} ${q.objective}`.toLowerCase().includes(search.toLowerCase())));
- if(filter==='unseen')candidates=candidates.filter(q=>!attempted.has(q.id));if(filter==='missed')candidates=candidates.filter(q=>state.reviews[q.id]?.lastCorrect===false);if(filter==='bookmarked')candidates=candidates.filter(q=>state.bookmarks.includes(q.id));if(filter==='added')candidates=candidates.filter(q=>q.kind==='generated'||state.packs.some(p=>p.id===q.id));
+ if(filter==='unseen')candidates=candidates.filter(q=>!attempted.has(q.id));if(filter==='missed')candidates=candidates.filter(q=>state.reviews[q.id]?.lastCorrect===false);if(filter==='bookmarked')candidates=candidates.filter(q=>state.bookmarks.includes(q.id));if(filter==='added')candidates=candidates.filter(q=>q.kind==='generated'||state.packs.some(p=>p.id===q.id));if(filter==='figures')candidates=candidates.filter(q=>q.figure);
  const weak=new Map(CATEGORIES.map(c=>{const a=stats(state,c.id).recent;return [c.id,a.length?a.filter(a=>a.correct).length/a.length:0.5];}));
  if(today){const now=Date.now();const priority=q=>{const r=state.reviews[q.id];if(r&&r.due<=now)return (r.lastCorrect?1:0);if(!attempted.has(q.id))return 2+weak.get(q.category);return 4;};candidates=shuffle(candidates).sort((a,b)=>priority(a)-priority(b));}else candidates=shuffle(candidates);
  return candidates.slice(0,count==='all'?candidates.length:count);

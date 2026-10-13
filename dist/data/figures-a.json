@@ -1,0 +1,1178 @@
+[
+  {
+    "id": "fig-a-001",
+    "category": "weather",
+    "objective": "metar-sky",
+    "prompt": "Using historical Figure 12, which combination of prevailing visibility and ceiling is reported at KMDW?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "1½ statute miles and 700 feet AGL",
+        "why": "Read the KMDW SPECI row: 1 1/2SM is 1½ statute miles, and OVC007 is an overcast ceiling at 700 feet above ground. The 17/16 group is temperature/dewpoint, not cloud height."
+      },
+      {
+        "id": "b",
+        "text": "1½ nautical miles and 7,000 feet MSL",
+        "why": "SM is statute miles, and sky-layer heights use hundreds of feet AGL, not thousands of feet MSL."
+      },
+      {
+        "id": "c",
+        "text": "7 statute miles and 1,700 feet AGL",
+        "why": "The cloud group is OVC007: 700 feet AGL. The 17/16 group does not report visibility or height."
+      }
+    ],
+    "answer": "a",
+    "explanation": "Read the KMDW SPECI row: 1 1/2SM is 1½ statute miles, and OVC007 is an overcast ceiling at 700 feet above ground. The 17/16 group is temperature/dewpoint, not cloud height. Historical test-supplement example; use current weather information for actual flights.",
+    "memoryCue": "",
+    "acs": "PA.I.C.K2a",
+    "references": [
+      {
+        "title": "Airman Knowledge Testing Supplement for Sport Pilot, Recreational Pilot, Remote Pilot, and Private Pilot",
+        "url": "https://www.faa.gov/sites/faa.gov/files/training_testing/testing/supplements/sport_rec_private_akts.pdf#page=46",
+        "locator": "Figure 12: Aviation Routine Weather Reports (METAR); printed page 2-12, PDF page 46",
+        "edition": "FAA-CT-8080-2H, June 2018",
+        "verified": "2026-10-13"
+      },
+      {
+        "title": "Aviation Weather Handbook",
+        "url": "https://www.faa.gov/sites/faa.gov/files/FAA-H-8083-28B.pdf#page=299",
+        "locator": "24.4.3.9, Sky Condition Group; 24.4.3.6, Visibility Group",
+        "edition": "FAA-H-8083-28B, 2026",
+        "verified": "2026-10-13"
+      }
+    ],
+    "figure": {
+      "src": "assets/figure-12.png",
+      "caption": "FAA-CT-8080-2H • Figure 12 — Aviation Routine Weather Reports (METAR)",
+      "alt": "Authentic FAA testing-supplement Figure 12: Aviation Routine Weather Reports (METAR). Open the figure to read its labeled data."
+    },
+    "kind": "authored"
+  },
+  {
+    "id": "fig-a-002",
+    "category": "weather",
+    "objective": "metar-sky",
+    "prompt": "In Figure 12, which statement correctly describes the ceiling reported at KLAX?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "The ceiling is 700 feet AGL because SCT007 is the lowest cloud layer",
+        "why": "A scattered layer is not a ceiling. SCT007 reports clouds at 700 feet AGL without reporting a ceiling there."
+      },
+      {
+        "id": "b",
+        "text": "The ceiling is 25,000 feet AGL because the upper layer is always the ceiling",
+        "why": "The ceiling is not automatically the highest layer, and SCT250 is scattered rather than broken or overcast."
+      },
+      {
+        "id": "c",
+        "text": "No broken, overcast, or obscuration ceiling is reported",
+        "why": "The KLAX row shows SCT007 and SCT250. Scattered cloud layers at 700 and 25,000 feet AGL do not meet the ceiling definition; a ceiling is the lowest BKN/OVC layer or vertical visibility into total obscuration. No reported ceiling does not mean no clouds."
+      }
+    ],
+    "answer": "c",
+    "explanation": "The KLAX row shows SCT007 and SCT250. Scattered cloud layers at 700 and 25,000 feet AGL do not meet the ceiling definition; a ceiling is the lowest BKN/OVC layer or vertical visibility into total obscuration. No reported ceiling does not mean no clouds. Historical test-supplement example; use current weather information for actual flights.",
+    "memoryCue": "",
+    "acs": "PA.I.C.K2a",
+    "references": [
+      {
+        "title": "Airman Knowledge Testing Supplement for Sport Pilot, Recreational Pilot, Remote Pilot, and Private Pilot",
+        "url": "https://www.faa.gov/sites/faa.gov/files/training_testing/testing/supplements/sport_rec_private_akts.pdf#page=46",
+        "locator": "Figure 12: Aviation Routine Weather Reports (METAR); printed page 2-12, PDF page 46",
+        "edition": "FAA-CT-8080-2H, June 2018",
+        "verified": "2026-10-13"
+      },
+      {
+        "title": "Aviation Weather Handbook",
+        "url": "https://www.faa.gov/sites/faa.gov/files/FAA-H-8083-28B.pdf#page=299",
+        "locator": "24.4.3.9, Sky Condition Group",
+        "edition": "FAA-H-8083-28B, 2026",
+        "verified": "2026-10-13"
+      }
+    ],
+    "figure": {
+      "src": "assets/figure-12.png",
+      "caption": "FAA-CT-8080-2H • Figure 12 — Aviation Routine Weather Reports (METAR)",
+      "alt": "Authentic FAA testing-supplement Figure 12: Aviation Routine Weather Reports (METAR). Open the figure to read its labeled data."
+    },
+    "kind": "authored"
+  },
+  {
+    "id": "fig-a-003",
+    "category": "weather",
+    "objective": "metar-wind",
+    "prompt": "Using the KINK row of Figure 12, what wind should be decoded from the report?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "From 110° true at a steady 18 knots with no gusts",
+        "why": "The G18 group specifically reports gusts, while 12KT is the sustained speed."
+      },
+      {
+        "id": "b",
+        "text": "From 110° true at 12 knots, gusting to 18 knots",
+        "why": "The KINK row contains 11012G18KT: 110 is the true direction FROM which the wind blows, 12 is the reported sustained speed, and G18 is the peak gust speed in knots."
+      },
+      {
+        "id": "c",
+        "text": "Toward 110° magnetic at 18 knots, gusting to 12 knots",
+        "why": "METAR direction is from true north, not toward a magnetic direction; the sustained and gust speeds are reversed in this option."
+      }
+    ],
+    "answer": "b",
+    "explanation": "The KINK row contains 11012G18KT: 110 is the true direction FROM which the wind blows, 12 is the reported sustained speed, and G18 is the peak gust speed in knots. Historical test-supplement example; use current weather information for actual flights.",
+    "memoryCue": "",
+    "acs": "PA.I.C.K2a",
+    "references": [
+      {
+        "title": "Airman Knowledge Testing Supplement for Sport Pilot, Recreational Pilot, Remote Pilot, and Private Pilot",
+        "url": "https://www.faa.gov/sites/faa.gov/files/training_testing/testing/supplements/sport_rec_private_akts.pdf#page=46",
+        "locator": "Figure 12: Aviation Routine Weather Reports (METAR); printed page 2-12, PDF page 46",
+        "edition": "FAA-CT-8080-2H, June 2018",
+        "verified": "2026-10-13"
+      },
+      {
+        "title": "Aviation Weather Handbook",
+        "url": "https://www.faa.gov/sites/faa.gov/files/FAA-H-8083-28B.pdf#page=294",
+        "locator": "24.4.3.5, Wind Group; 24.4.3.5.1, Wind Gust",
+        "edition": "FAA-H-8083-28B, 2026",
+        "verified": "2026-10-13"
+      }
+    ],
+    "figure": {
+      "src": "assets/figure-12.png",
+      "caption": "FAA-CT-8080-2H • Figure 12 — Aviation Routine Weather Reports (METAR)",
+      "alt": "Authentic FAA testing-supplement Figure 12: Aviation Routine Weather Reports (METAR). Open the figure to read its labeled data."
+    },
+    "kind": "authored"
+  },
+  {
+    "id": "fig-a-004",
+    "category": "weather",
+    "objective": "metar-visibility",
+    "prompt": "In historical Figure 12, what runway-specific visual-range information is reported at KJFK?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Runway 04 visual range of 2,200 feet",
+        "why": "R04 identifies the runway, and 2200 is its reported runway visual range in feet in this historical U.S. example. This differs from the 1/2SM prevailing visibility and OVC005 ceiling. Modern U.S. coded RVR reports include the FT unit suffix."
+      },
+      {
+        "id": "b",
+        "text": "Runway 04 cloud ceiling of 2,200 feet",
+        "why": "RVR concerns horizontal visibility down a runway. The ceiling is reported separately by OVC005: 500 feet AGL."
+      },
+      {
+        "id": "c",
+        "text": "An altimeter setting of 22.00 inches Hg",
+        "why": "An altimeter setting starts with A; this runway-specific group is not a pressure setting."
+      }
+    ],
+    "answer": "a",
+    "explanation": "R04 identifies the runway, and 2200 is its reported runway visual range in feet in this historical U.S. example. This differs from the 1/2SM prevailing visibility and OVC005 ceiling. Modern U.S. coded RVR reports include the FT unit suffix. Historical test-supplement example; use current weather information for actual flights.",
+    "memoryCue": "",
+    "acs": "PA.I.C.K2a",
+    "references": [
+      {
+        "title": "Airman Knowledge Testing Supplement for Sport Pilot, Recreational Pilot, Remote Pilot, and Private Pilot",
+        "url": "https://www.faa.gov/sites/faa.gov/files/training_testing/testing/supplements/sport_rec_private_akts.pdf#page=46",
+        "locator": "Figure 12: Aviation Routine Weather Reports (METAR); printed page 2-12, PDF page 46",
+        "edition": "FAA-CT-8080-2H, June 2018",
+        "verified": "2026-10-13"
+      },
+      {
+        "title": "Aviation Weather Handbook",
+        "url": "https://www.faa.gov/sites/faa.gov/files/FAA-H-8083-28B.pdf#page=295",
+        "locator": "24.4.3.7, Runway Visual Range Group",
+        "edition": "FAA-H-8083-28B, 2026",
+        "verified": "2026-10-13"
+      }
+    ],
+    "figure": {
+      "src": "assets/figure-12.png",
+      "caption": "FAA-CT-8080-2H • Figure 12 — Aviation Routine Weather Reports (METAR)",
+      "alt": "Authentic FAA testing-supplement Figure 12: Aviation Routine Weather Reports (METAR). Open the figure to read its labeled data."
+    },
+    "kind": "authored"
+  },
+  {
+    "id": "fig-a-005",
+    "category": "weather",
+    "objective": "pirep-interpretation",
+    "prompt": "Using Figure 14, what icing was encountered in the reported icing layer?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Light clear icing at 12,000 feet MSL only",
+        "why": "RIME specifies the type, and the explicit 072-089 icing layer differs from the general /FL120 report altitude."
+      },
+      {
+        "id": "b",
+        "text": "Severe mixed icing between 550 and 720 feet AGL",
+        "why": "The reported intensity is light-to-moderate, the type is rime, and the icing layer is in hundreds of feet MSL."
+      },
+      {
+        "id": "c",
+        "text": "Light to moderate rime icing between 7,200 and 8,900 feet MSL",
+        "why": "The /IC group is LGT-MOD RIME 072-089. It specifies light-to-moderate rime icing in a layer from 7,200 to 8,900 feet MSL. The /FL120 group does not replace the explicitly stated icing-layer altitudes."
+      }
+    ],
+    "answer": "c",
+    "explanation": "The /IC group is LGT-MOD RIME 072-089. It specifies light-to-moderate rime icing in a layer from 7,200 to 8,900 feet MSL. The /FL120 group does not replace the explicitly stated icing-layer altitudes. Historical test-supplement example; use current weather information for actual flights.",
+    "memoryCue": "",
+    "acs": "PA.I.C.K2a",
+    "references": [
+      {
+        "title": "Airman Knowledge Testing Supplement for Sport Pilot, Recreational Pilot, Remote Pilot, and Private Pilot",
+        "url": "https://www.faa.gov/sites/faa.gov/files/training_testing/testing/supplements/sport_rec_private_akts.pdf#page=48",
+        "locator": "Figure 14: Pilot Weather Report; printed page 2-14, PDF page 48",
+        "edition": "FAA-CT-8080-2H, June 2018",
+        "verified": "2026-10-13"
+      },
+      {
+        "title": "Aviation Weather Handbook",
+        "url": "https://www.faa.gov/sites/faa.gov/files/FAA-H-8083-28B.pdf#page=315",
+        "locator": "24.5.1.11, Icing Group",
+        "edition": "FAA-H-8083-28B, 2026",
+        "verified": "2026-10-13"
+      }
+    ],
+    "figure": {
+      "src": "assets/figure-14.png",
+      "caption": "FAA-CT-8080-2H • Figure 14 — Pilot Weather Report",
+      "alt": "Authentic FAA testing-supplement Figure 14: Pilot Weather Report. Open the figure to read its labeled data."
+    },
+    "kind": "authored"
+  },
+  {
+    "id": "fig-a-006",
+    "category": "weather",
+    "objective": "pirep-interpretation",
+    "prompt": "Which turbulence layer is explicitly described in Figure 14?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "No turbulence below the report’s 12,000-foot flight altitude",
+        "why": "The report explicitly lists a turbulence layer below /FL120; separate phenomenon-layer altitudes must be read."
+      },
+      {
+        "id": "b",
+        "text": "Light turbulence from 5,500 to 7,200 feet MSL",
+        "why": "Read /TB LGT 055-072: light turbulence in the stated 5,500–7,200-foot MSL layer. The different 072-089 layer belongs to the icing group."
+      },
+      {
+        "id": "c",
+        "text": "Moderate turbulence from 7,200 to 8,900 feet MSL",
+        "why": "The 7,200–8,900-foot layer is the icing layer; the turbulence group says LGT 055-072."
+      }
+    ],
+    "answer": "b",
+    "explanation": "Read /TB LGT 055-072: light turbulence in the stated 5,500–7,200-foot MSL layer. The different 072-089 layer belongs to the icing group. Historical test-supplement example; use current weather information for actual flights.",
+    "memoryCue": "",
+    "acs": "PA.I.C.K2a",
+    "references": [
+      {
+        "title": "Airman Knowledge Testing Supplement for Sport Pilot, Recreational Pilot, Remote Pilot, and Private Pilot",
+        "url": "https://www.faa.gov/sites/faa.gov/files/training_testing/testing/supplements/sport_rec_private_akts.pdf#page=48",
+        "locator": "Figure 14: Pilot Weather Report; printed page 2-14, PDF page 48",
+        "edition": "FAA-CT-8080-2H, June 2018",
+        "verified": "2026-10-13"
+      },
+      {
+        "title": "Aviation Weather Handbook",
+        "url": "https://www.faa.gov/sites/faa.gov/files/FAA-H-8083-28B.pdf#page=314",
+        "locator": "24.5.1.10, Turbulence Group",
+        "edition": "FAA-H-8083-28B, 2026",
+        "verified": "2026-10-13"
+      }
+    ],
+    "figure": {
+      "src": "assets/figure-14.png",
+      "caption": "FAA-CT-8080-2H • Figure 14 — Pilot Weather Report",
+      "alt": "Authentic FAA testing-supplement Figure 14: Pilot Weather Report. Open the figure to read its labeled data."
+    },
+    "kind": "authored"
+  },
+  {
+    "id": "fig-a-007",
+    "category": "weather",
+    "objective": "pirep-interpretation",
+    "prompt": "What general report altitude and air temperature are encoded in Figure 14?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "12,000 feet MSL and −7°C",
+        "why": "/FL120 is an altitude of 12,000 feet MSL, and /TA M7 is air temperature minus 7 degrees Celsius. Cloud and icing layer numbers are separate data."
+      },
+      {
+        "id": "b",
+        "text": "1,200 feet AGL and +7°C",
+        "why": "PIREP flight altitude is in hundreds of feet MSL; M marks a minus temperature, not plus."
+      },
+      {
+        "id": "c",
+        "text": "7,200 feet MSL and −12°C",
+        "why": "072 is an icing/cloud-layer boundary in this report; /FL120 and /TA M7 are the required fields."
+      }
+    ],
+    "answer": "a",
+    "explanation": "/FL120 is an altitude of 12,000 feet MSL, and /TA M7 is air temperature minus 7 degrees Celsius. Cloud and icing layer numbers are separate data. Historical test-supplement example; use current weather information for actual flights.",
+    "memoryCue": "",
+    "acs": "PA.I.C.K2a",
+    "references": [
+      {
+        "title": "Airman Knowledge Testing Supplement for Sport Pilot, Recreational Pilot, Remote Pilot, and Private Pilot",
+        "url": "https://www.faa.gov/sites/faa.gov/files/training_testing/testing/supplements/sport_rec_private_akts.pdf#page=48",
+        "locator": "Figure 14: Pilot Weather Report; printed page 2-14, PDF page 48",
+        "edition": "FAA-CT-8080-2H, June 2018",
+        "verified": "2026-10-13"
+      },
+      {
+        "title": "Aviation Weather Handbook",
+        "url": "https://www.faa.gov/sites/faa.gov/files/FAA-H-8083-28B.pdf#page=312",
+        "locator": "24.5.1.4, Altitude/Flight Level; 24.5.1.8, Air Temperature",
+        "edition": "FAA-H-8083-28B, 2026",
+        "verified": "2026-10-13"
+      }
+    ],
+    "figure": {
+      "src": "assets/figure-14.png",
+      "caption": "FAA-CT-8080-2H • Figure 14 — Pilot Weather Report",
+      "alt": "Authentic FAA testing-supplement Figure 14: Pilot Weather Report. Open the figure to read its labeled data."
+    },
+    "kind": "authored"
+  },
+  {
+    "id": "fig-a-008",
+    "category": "weather",
+    "objective": "taf-interpretation",
+    "prompt": "Using only the KOKC forecast in historical Figure 15, what is its stated validity period?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Day 5 at 1130 UTC through day 5 at 1200 UTC",
+        "why": "051130Z is the issue timestamp. The slash-separated 0512/0618 group gives the actual valid period."
+      },
+      {
+        "id": "b",
+        "text": "Day 6 at 1200 local time through day 18 at 1800 local time",
+        "why": "The first two digits in each valid-period half are days and the next two are UTC hours; the end day is 06, not 18."
+      },
+      {
+        "id": "c",
+        "text": "Day 5 at 1200 UTC through day 6 at 1800 UTC",
+        "why": "The KOKC header contains 0512/0618: start day 05 at 12 UTC, end day 06 at 18 UTC. The preceding 051130Z is issue time, not the beginning and end of validity. This historical figure includes legacy forecast groups that should not be generalized as present-day NWS issuance practices."
+      }
+    ],
+    "answer": "c",
+    "explanation": "The KOKC header contains 0512/0618: start day 05 at 12 UTC, end day 06 at 18 UTC. The preceding 051130Z is issue time, not the beginning and end of validity. This historical figure includes legacy forecast groups that should not be generalized as present-day NWS issuance practices. Historical test-supplement example; use current weather information for actual flights.",
+    "memoryCue": "",
+    "acs": "PA.I.C.K2c",
+    "references": [
+      {
+        "title": "Airman Knowledge Testing Supplement for Sport Pilot, Recreational Pilot, Remote Pilot, and Private Pilot",
+        "url": "https://www.faa.gov/sites/faa.gov/files/training_testing/testing/supplements/sport_rec_private_akts.pdf#page=49",
+        "locator": "Figure 15: Terminal Aerodrome Forecasts (TAF); printed page 2-15, PDF page 49",
+        "edition": "FAA-CT-8080-2H, June 2018",
+        "verified": "2026-10-13"
+      },
+      {
+        "title": "Aviation Weather Handbook",
+        "url": "https://www.faa.gov/sites/faa.gov/files/FAA-H-8083-28B.pdf#page=409",
+        "locator": "27.4.2.4, Valid Period",
+        "edition": "FAA-H-8083-28B, 2026",
+        "verified": "2026-10-13"
+      }
+    ],
+    "figure": {
+      "src": "assets/figure-15.png",
+      "caption": "FAA-CT-8080-2H • Figure 15 — Terminal Aerodrome Forecasts (TAF)",
+      "alt": "Authentic FAA testing-supplement Figure 15: Terminal Aerodrome Forecasts (TAF). Open the figure to read its labeled data."
+    },
+    "kind": "authored"
+  },
+  {
+    "id": "fig-a-009",
+    "category": "weather",
+    "objective": "taf-interpretation",
+    "prompt": "In the KOKC forecast of Figure 15, what prevailing wind, visibility, and sky conditions begin with FM051600?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Wind from 200° true at 13 knots gusting 20, visibility 4 SM, overcast 2,000 feet",
+        "why": "Those values are in a later historical change group, not the FM051600 group asked about."
+      },
+      {
+        "id": "b",
+        "text": "Wind from 180° true at 10 knots, visibility over 6 SM, clear sky",
+        "why": "The FM051600 group introduces 18010KT P6SM SKC: new prevailing conditions from day 5 at 1600 UTC. The initial 14008KT 5SM BR BKN030 and later BECMG text are different groups in this historical example."
+      },
+      {
+        "id": "c",
+        "text": "Wind from 140° true at 8 knots, visibility 5 SM, broken ceiling 3,000 feet",
+        "why": "Those are the initial conditions before the FM051600 change, not the new prevailing conditions specified by it."
+      }
+    ],
+    "answer": "b",
+    "explanation": "The FM051600 group introduces 18010KT P6SM SKC: new prevailing conditions from day 5 at 1600 UTC. The initial 14008KT 5SM BR BKN030 and later BECMG text are different groups in this historical example. Historical test-supplement example; use current weather information for actual flights.",
+    "memoryCue": "",
+    "acs": "PA.I.C.K2c",
+    "references": [
+      {
+        "title": "Airman Knowledge Testing Supplement for Sport Pilot, Recreational Pilot, Remote Pilot, and Private Pilot",
+        "url": "https://www.faa.gov/sites/faa.gov/files/training_testing/testing/supplements/sport_rec_private_akts.pdf#page=49",
+        "locator": "Figure 15: Terminal Aerodrome Forecasts (TAF); printed page 2-15, PDF page 49",
+        "edition": "FAA-CT-8080-2H, June 2018",
+        "verified": "2026-10-13"
+      },
+      {
+        "title": "Aviation Weather Handbook",
+        "url": "https://www.faa.gov/sites/faa.gov/files/FAA-H-8083-28B.pdf#page=416",
+        "locator": "27.4.2.10.1, From Group; 27.4.2.6, Visibility Group",
+        "edition": "FAA-H-8083-28B, 2026",
+        "verified": "2026-10-13"
+      }
+    ],
+    "figure": {
+      "src": "assets/figure-15.png",
+      "caption": "FAA-CT-8080-2H • Figure 15 — Terminal Aerodrome Forecasts (TAF)",
+      "alt": "Authentic FAA testing-supplement Figure 15: Terminal Aerodrome Forecasts (TAF). Open the figure to read its labeled data."
+    },
+    "kind": "authored"
+  },
+  {
+    "id": "fig-a-010",
+    "category": "weather",
+    "objective": "taf-interpretation",
+    "prompt": "In Figure 15’s KOKC forecast, what temporary visibility and obstruction may occur between 1300 and 1600 UTC on day 5?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "1½ statute miles in mist",
+        "why": "The KOKC TEMPO 0513/0516 group specifies 1 1/2SM BR: temporary visibility of 1½ statute miles in mist during that interval. TEMPO describes temporary fluctuations, not a continuous replacement for the entire period."
+      },
+      {
+        "id": "b",
+        "text": "½ statute mile in fog",
+        "why": "The half-mile FG group appears in the separate KMEM forecast, not the KOKC TEMPO group asked about."
+      },
+      {
+        "id": "c",
+        "text": "2 statute miles in thunderstorms with rain",
+        "why": "The KOKC thunderstorm group is in a different stated time period; this TEMPO group specifies mist."
+      }
+    ],
+    "answer": "a",
+    "explanation": "The KOKC TEMPO 0513/0516 group specifies 1 1/2SM BR: temporary visibility of 1½ statute miles in mist during that interval. TEMPO describes temporary fluctuations, not a continuous replacement for the entire period. Historical test-supplement example; use current weather information for actual flights.",
+    "memoryCue": "",
+    "acs": "PA.I.C.K2c",
+    "references": [
+      {
+        "title": "Airman Knowledge Testing Supplement for Sport Pilot, Recreational Pilot, Remote Pilot, and Private Pilot",
+        "url": "https://www.faa.gov/sites/faa.gov/files/training_testing/testing/supplements/sport_rec_private_akts.pdf#page=49",
+        "locator": "Figure 15: Terminal Aerodrome Forecasts (TAF); printed page 2-15, PDF page 49",
+        "edition": "FAA-CT-8080-2H, June 2018",
+        "verified": "2026-10-13"
+      },
+      {
+        "title": "Aviation Weather Handbook",
+        "url": "https://www.faa.gov/sites/faa.gov/files/FAA-H-8083-28B.pdf#page=417",
+        "locator": "27.4.2.10.2, Temporary Group",
+        "edition": "FAA-H-8083-28B, 2026",
+        "verified": "2026-10-13"
+      }
+    ],
+    "figure": {
+      "src": "assets/figure-15.png",
+      "caption": "FAA-CT-8080-2H • Figure 15 — Terminal Aerodrome Forecasts (TAF)",
+      "alt": "Authentic FAA testing-supplement Figure 15: Terminal Aerodrome Forecasts (TAF). Open the figure to read its labeled data."
+    },
+    "kind": "authored"
+  },
+  {
+    "id": "fig-a-011",
+    "category": "weather",
+    "objective": "winds-aloft",
+    "prompt": "Using Figure 17, what wind and temperature are forecast at STL at 34,000 feet?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Wind from 730° at 6 knots, temperature +49°C",
+        "why": "The special high-speed encoding must be decoded, and the temperature is negative at this level."
+      },
+      {
+        "id": "b",
+        "text": "Wind from 230° true at 6 knots, temperature −49°C",
+        "why": "Subtracting 50 from direction also requires adding 100 to the speed: the wind is 106 kt, not 6 kt."
+      },
+      {
+        "id": "c",
+        "text": "Wind from 230° true at 106 knots, temperature −49°C",
+        "why": "The STL 34,000-foot cell is 730649. For a wind code above 50, subtract 50 from direction and add 100 to speed: (73−50)×10 = 230°, 06+100 = 106 kt. Above 24,000 feet the temperature sign is omitted and is negative, so 49 means −49°C."
+      }
+    ],
+    "answer": "c",
+    "explanation": "The STL 34,000-foot cell is 730649. For a wind code above 50, subtract 50 from direction and add 100 to speed: (73−50)×10 = 230°, 06+100 = 106 kt. Above 24,000 feet the temperature sign is omitted and is negative, so 49 means −49°C. Historical test-supplement example; use current weather information for actual flights.",
+    "memoryCue": "",
+    "acs": "PA.I.C.K2e",
+    "references": [
+      {
+        "title": "Airman Knowledge Testing Supplement for Sport Pilot, Recreational Pilot, Remote Pilot, and Private Pilot",
+        "url": "https://www.faa.gov/sites/faa.gov/files/training_testing/testing/supplements/sport_rec_private_akts.pdf#page=50",
+        "locator": "Figure 17: Winds and Temperatures Aloft Forecast; printed page 2-16, PDF page 50",
+        "edition": "FAA-CT-8080-2H, June 2018",
+        "verified": "2026-10-13"
+      },
+      {
+        "title": "Aviation Weather Handbook",
+        "url": "https://www.faa.gov/sites/faa.gov/files/FAA-H-8083-28B.pdf#page=405",
+        "locator": "27.2.1.1.1, FB Forecast Text Format",
+        "edition": "FAA-H-8083-28B, 2026",
+        "verified": "2026-10-13"
+      }
+    ],
+    "figure": {
+      "src": "assets/figure-17.png",
+      "caption": "FAA-CT-8080-2H • Figure 17 — Winds and Temperatures Aloft Forecast",
+      "alt": "Authentic FAA testing-supplement Figure 17: Winds and Temperatures Aloft Forecast. Open the figure to read its labeled data."
+    },
+    "kind": "authored"
+  },
+  {
+    "id": "fig-a-012",
+    "category": "weather",
+    "objective": "winds-aloft",
+    "prompt": "In Figure 17, what temperature information is provided in the ALS 9,000-foot cell?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "The temperature is +20°C because the wind speed is also the temperature",
+        "why": "20 is the wind-speed component, not an additional temperature observation."
+      },
+      {
+        "id": "b",
+        "text": "No temperature is provided in that cell",
+        "why": "2420 supplies direction 240° true and speed 20 kt, but no temperature digits. Missing temperature data must not be treated as zero; forecasts omit temperature near station elevation according to product rules."
+      },
+      {
+        "id": "c",
+        "text": "The temperature is 0°C because there are no final temperature digits",
+        "why": "A missing value is not a zero value. Only wind is encoded in 2420."
+      }
+    ],
+    "answer": "b",
+    "explanation": "2420 supplies direction 240° true and speed 20 kt, but no temperature digits. Missing temperature data must not be treated as zero; forecasts omit temperature near station elevation according to product rules. Historical test-supplement example; use current weather information for actual flights.",
+    "memoryCue": "",
+    "acs": "PA.I.C.K2e",
+    "references": [
+      {
+        "title": "Airman Knowledge Testing Supplement for Sport Pilot, Recreational Pilot, Remote Pilot, and Private Pilot",
+        "url": "https://www.faa.gov/sites/faa.gov/files/training_testing/testing/supplements/sport_rec_private_akts.pdf#page=50",
+        "locator": "Figure 17: Winds and Temperatures Aloft Forecast; printed page 2-16, PDF page 50",
+        "edition": "FAA-CT-8080-2H, June 2018",
+        "verified": "2026-10-13"
+      },
+      {
+        "title": "Aviation Weather Handbook",
+        "url": "https://www.faa.gov/sites/faa.gov/files/FAA-H-8083-28B.pdf#page=405",
+        "locator": "27.2.1.1, FB Forecast Issuance; 27.2.1.1.1, FB Forecast Text Format",
+        "edition": "FAA-H-8083-28B, 2026",
+        "verified": "2026-10-13"
+      }
+    ],
+    "figure": {
+      "src": "assets/figure-17.png",
+      "caption": "FAA-CT-8080-2H • Figure 17 — Winds and Temperatures Aloft Forecast",
+      "alt": "Authentic FAA testing-supplement Figure 17: Winds and Temperatures Aloft Forecast. Open the figure to read its labeled data."
+    },
+    "kind": "authored"
+  },
+  {
+    "id": "fig-a-013",
+    "category": "weather",
+    "objective": "winds-aloft",
+    "prompt": "Compare the 12,000-foot column in Figure 17. Among ALS, DEN, and STL, which location has the strongest forecast wind?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "STL",
+        "why": "The 12,000-foot cells are ALS 2635−08, DEN 2434−19, and STL 2339−04. Their wind speeds are 35, 34, and 39 knots respectively, so STL is strongest among these three. Read the requested altitude column before comparing speeds."
+      },
+      {
+        "id": "b",
+        "text": "ALS",
+        "why": "ALS has 35 kt at this level, less than STL’s 39 kt."
+      },
+      {
+        "id": "c",
+        "text": "DEN",
+        "why": "DEN has 34 kt at this level, less than both ALS and STL."
+      }
+    ],
+    "answer": "a",
+    "explanation": "The 12,000-foot cells are ALS 2635−08, DEN 2434−19, and STL 2339−04. Their wind speeds are 35, 34, and 39 knots respectively, so STL is strongest among these three. Read the requested altitude column before comparing speeds. Historical test-supplement example; use current weather information for actual flights.",
+    "memoryCue": "",
+    "acs": "PA.I.C.K2e",
+    "references": [
+      {
+        "title": "Airman Knowledge Testing Supplement for Sport Pilot, Recreational Pilot, Remote Pilot, and Private Pilot",
+        "url": "https://www.faa.gov/sites/faa.gov/files/training_testing/testing/supplements/sport_rec_private_akts.pdf#page=50",
+        "locator": "Figure 17: Winds and Temperatures Aloft Forecast; printed page 2-16, PDF page 50",
+        "edition": "FAA-CT-8080-2H, June 2018",
+        "verified": "2026-10-13"
+      },
+      {
+        "title": "Aviation Weather Handbook",
+        "url": "https://www.faa.gov/sites/faa.gov/files/FAA-H-8083-28B.pdf#page=405",
+        "locator": "27.2.1.1.1, FB Forecast Text Format",
+        "edition": "FAA-H-8083-28B, 2026",
+        "verified": "2026-10-13"
+      }
+    ],
+    "figure": {
+      "src": "assets/figure-17.png",
+      "caption": "FAA-CT-8080-2H • Figure 17 — Winds and Temperatures Aloft Forecast",
+      "alt": "Authentic FAA testing-supplement Figure 17: Winds and Temperatures Aloft Forecast. Open the figure to read its labeled data."
+    },
+    "kind": "authored"
+  },
+  {
+    "id": "fig-a-014",
+    "category": "weather",
+    "objective": "winds-aloft",
+    "prompt": "In Figure 17, what temperature is forecast at MKC at 30,000 feet?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "+43°C",
+        "why": "At this forecast altitude the omitted temperature sign is negative, so +43°C is not the encoded temperature."
+      },
+      {
+        "id": "b",
+        "text": "−61°C",
+        "why": "61 is wind speed in knots; the final 43 is the temperature magnitude."
+      },
+      {
+        "id": "c",
+        "text": "−43°C",
+        "why": "The MKC 30,000-foot cell is 236143: wind from 230° true at 61 kt and temperature −43°C. Above 24,000 feet the minus sign is omitted; 61 is wind speed, not temperature."
+      }
+    ],
+    "answer": "c",
+    "explanation": "The MKC 30,000-foot cell is 236143: wind from 230° true at 61 kt and temperature −43°C. Above 24,000 feet the minus sign is omitted; 61 is wind speed, not temperature. Historical test-supplement example; use current weather information for actual flights.",
+    "memoryCue": "",
+    "acs": "PA.I.C.K2e",
+    "references": [
+      {
+        "title": "Airman Knowledge Testing Supplement for Sport Pilot, Recreational Pilot, Remote Pilot, and Private Pilot",
+        "url": "https://www.faa.gov/sites/faa.gov/files/training_testing/testing/supplements/sport_rec_private_akts.pdf#page=50",
+        "locator": "Figure 17: Winds and Temperatures Aloft Forecast; printed page 2-16, PDF page 50",
+        "edition": "FAA-CT-8080-2H, June 2018",
+        "verified": "2026-10-13"
+      },
+      {
+        "title": "Aviation Weather Handbook",
+        "url": "https://www.faa.gov/sites/faa.gov/files/FAA-H-8083-28B.pdf#page=405",
+        "locator": "27.2.1.1.1, FB Forecast Text Format",
+        "edition": "FAA-H-8083-28B, 2026",
+        "verified": "2026-10-13"
+      }
+    ],
+    "figure": {
+      "src": "assets/figure-17.png",
+      "caption": "FAA-CT-8080-2H • Figure 17 — Winds and Temperatures Aloft Forecast",
+      "alt": "Authentic FAA testing-supplement Figure 17: Winds and Temperatures Aloft Forecast. Open the figure to read its labeled data."
+    },
+    "kind": "authored"
+  },
+  {
+    "id": "fig-a-015",
+    "category": "weather",
+    "objective": "sigwx-interpretation",
+    "prompt": "According to Figure 19’s upper 12-hour panel, which flying-weather category is forecast for central South Carolina?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Guaranteed clear VFR weather at every airport in the outline",
+        "why": "The red outline explicitly identifies forecast restricted ceilings and/or visibility, not guaranteed VFR."
+      },
+      {
+        "id": "b",
+        "text": "Ceiling below 1,000 feet and/or visibility below 3 statute miles",
+        "why": "Use this figure’s embedded legend: the red outline represents ceiling less than 1,000 feet and/or visibility less than 3 miles, the IFR forecast category. Either condition can establish that category. This is an April 2012 historical chart, not current weather or a substitute for a terminal forecast."
+      },
+      {
+        "id": "c",
+        "text": "Only ceilings from 1,000 to 3,000 feet with visibility always above 5 miles",
+        "why": "The figure’s light-blue scalloped outline denotes the other restricted-visibility/ceiling category; the red outline is the IFR area."
+      }
+    ],
+    "answer": "b",
+    "explanation": "Use this figure’s embedded legend: the red outline represents ceiling less than 1,000 feet and/or visibility less than 3 miles, the IFR forecast category. Either condition can establish that category. This is an April 2012 historical chart, not current weather or a substitute for a terminal forecast. Historical test-supplement example; use current weather information for actual flights.",
+    "memoryCue": "",
+    "acs": "PA.I.C.K2",
+    "references": [
+      {
+        "title": "Airman Knowledge Testing Supplement for Sport Pilot, Recreational Pilot, Remote Pilot, and Private Pilot",
+        "url": "https://www.faa.gov/sites/faa.gov/files/training_testing/testing/supplements/sport_rec_private_akts.pdf#page=52",
+        "locator": "Figure 19: Low-Level Significant Weather (SIGWX) Prognostic Charts; printed page 2-18, PDF page 52",
+        "edition": "FAA-CT-8080-2H, June 2018",
+        "verified": "2026-10-13"
+      },
+      {
+        "title": "Aviation Weather Handbook",
+        "url": "https://www.faa.gov/sites/faa.gov/files/FAA-H-8083-28B.pdf#page=438",
+        "locator": "27.9.1.2.1, Flying Categories",
+        "edition": "FAA-H-8083-28B, 2026",
+        "verified": "2026-10-13"
+      }
+    ],
+    "figure": {
+      "src": "assets/figure-19.png",
+      "caption": "FAA-CT-8080-2H • Figure 19 — Low-Level Significant Weather (SIGWX) Prognostic Charts",
+      "alt": "Authentic FAA testing-supplement Figure 19: Low-Level Significant Weather (SIGWX) Prognostic Charts. Open the figure to read its labeled data."
+    },
+    "kind": "authored"
+  },
+  {
+    "id": "fig-a-016",
+    "category": "weather",
+    "objective": "sigwx-interpretation",
+    "prompt": "On Figure 19’s lower 24-hour panel, what turbulence layer is described by the two-number top/base label near western Montana?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "18,000 feet MSL to FL240",
+        "why": "Turbulence labels give top above the slash and base below it in hundreds of feet MSL. Therefore 240/180 indicates a top at FL240 and a base at 18,000 feet MSL. The symbol above the numbers depicts intensity; the numbers describe the layer, not wind speed."
+      },
+      {
+        "id": "b",
+        "text": "240 feet AGL to 1,800 feet AGL",
+        "why": "The three-digit numbers are hundreds of feet MSL, not individual feet or AGL values."
+      },
+      {
+        "id": "c",
+        "text": "Surface to 24,000 feet with no stated base",
+        "why": "A surface-reaching layer omits the base number; this label explicitly provides 180 as the base."
+      }
+    ],
+    "answer": "a",
+    "explanation": "Turbulence labels give top above the slash and base below it in hundreds of feet MSL. Therefore 240/180 indicates a top at FL240 and a base at 18,000 feet MSL. The symbol above the numbers depicts intensity; the numbers describe the layer, not wind speed. Historical test-supplement example; use current weather information for actual flights.",
+    "memoryCue": "",
+    "acs": "PA.I.C.K2",
+    "references": [
+      {
+        "title": "Airman Knowledge Testing Supplement for Sport Pilot, Recreational Pilot, Remote Pilot, and Private Pilot",
+        "url": "https://www.faa.gov/sites/faa.gov/files/training_testing/testing/supplements/sport_rec_private_akts.pdf#page=52",
+        "locator": "Figure 19: Low-Level Significant Weather (SIGWX) Prognostic Charts; printed page 2-18, PDF page 52",
+        "edition": "FAA-CT-8080-2H, June 2018",
+        "verified": "2026-10-13"
+      },
+      {
+        "title": "Aviation Weather Handbook",
+        "url": "https://www.faa.gov/sites/faa.gov/files/FAA-H-8083-28B.pdf#page=438",
+        "locator": "27.9.1.2.2, Turbulence",
+        "edition": "FAA-H-8083-28B, 2026",
+        "verified": "2026-10-13"
+      }
+    ],
+    "figure": {
+      "src": "assets/figure-19.png",
+      "caption": "FAA-CT-8080-2H • Figure 19 — Low-Level Significant Weather (SIGWX) Prognostic Charts",
+      "alt": "Authentic FAA testing-supplement Figure 19: Low-Level Significant Weather (SIGWX) Prognostic Charts. Open the figure to read its labeled data."
+    },
+    "kind": "authored"
+  },
+  {
+    "id": "fig-a-017",
+    "category": "airports",
+    "objective": "taxi-wind-controls",
+    "prompt": "For a conventional tricycle-gear airplane, which taxi-control position matches the wind direction indicated by arrow C in Figure 9?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Left aileron up and elevator neutral",
+        "why": "Aileron into a quartering headwind is a different case. For the depicted tailwind, the upwind left aileron should be down."
+      },
+      {
+        "id": "b",
+        "text": "Both ailerons neutral and elevator up",
+        "why": "Neutral ailerons and up elevator do not match the FAA quartering-tailwind guidance."
+      },
+      {
+        "id": "c",
+        "text": "Left aileron down and elevator down",
+        "why": "Arrow C comes from the left rear. For a quartering tailwind, FAA guidance calls for the upwind aileron down and elevator down, helping prevent wind from lifting the wing or tail. With conventional controls, this means turning the control wheel right and holding it forward. Follow the airplane’s POH."
+      }
+    ],
+    "answer": "c",
+    "explanation": "Arrow C comes from the left rear. For a quartering tailwind, FAA guidance calls for the upwind aileron down and elevator down, helping prevent wind from lifting the wing or tail. With conventional controls, this means turning the control wheel right and holding it forward. Follow the airplane’s POH.",
+    "memoryCue": "",
+    "acs": "PA.I.G.K1a",
+    "references": [
+      {
+        "title": "Airman Knowledge Testing Supplement for Sport Pilot, Recreational Pilot, Remote Pilot, and Private Pilot",
+        "url": "https://www.faa.gov/sites/faa.gov/files/training_testing/testing/supplements/sport_rec_private_akts.pdf#page=43",
+        "locator": "Figure 9: Control Position for Taxi; printed page 2-9, PDF page 43",
+        "edition": "FAA-CT-8080-2H, June 2018",
+        "verified": "2026-10-13"
+      },
+      {
+        "title": "Airplane Flying Handbook, Chapter 2",
+        "url": "https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/airplane_handbook/03_afh_ch2.pdf#page=19",
+        "locator": "Printed page 2-19, Taxiing, quartering-tailwind control positions",
+        "edition": "FAA-H-8083-3C, 2021",
+        "verified": "2026-10-13"
+      }
+    ],
+    "figure": {
+      "src": "assets/figure-9.png",
+      "caption": "FAA-CT-8080-2H • Figure 9 — Control Position for Taxi",
+      "alt": "Authentic FAA testing-supplement Figure 9: Control Position for Taxi. Open the figure to read its labeled data."
+    },
+    "kind": "authored"
+  },
+  {
+    "id": "fig-a-018",
+    "category": "airports",
+    "objective": "visual-glidepath-guidance",
+    "prompt": "Which illustration in Figure 47 shows the normal on-glidepath indication for the pictured two-bar VASI?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "D",
+        "why": "D is all red, indicating an approach below the VASI glidepath."
+      },
+      {
+        "id": "b",
+        "text": "A",
+        "why": "In A, the far bar is red and the near bar is white: the normal two-bar VASI on-path indication. C shows all white, indicating high, while D shows all red, indicating low. These lights give vertical path guidance; remain properly aligned with the runway."
+      },
+      {
+        "id": "c",
+        "text": "C",
+        "why": "C is all white, indicating an approach above the VASI glidepath."
+      }
+    ],
+    "answer": "b",
+    "explanation": "In A, the far bar is red and the near bar is white: the normal two-bar VASI on-path indication. C shows all white, indicating high, while D shows all red, indicating low. These lights give vertical path guidance; remain properly aligned with the runway.",
+    "memoryCue": "",
+    "acs": "PA.II.D.K3",
+    "references": [
+      {
+        "title": "Airman Knowledge Testing Supplement for Sport Pilot, Recreational Pilot, Remote Pilot, and Private Pilot",
+        "url": "https://www.faa.gov/sites/faa.gov/files/training_testing/testing/supplements/sport_rec_private_akts.pdf#page=78",
+        "locator": "Figure 47: VASI Illustrations; printed page 2-44, PDF page 78",
+        "edition": "FAA-CT-8080-2H, June 2018",
+        "verified": "2026-10-13"
+      },
+      {
+        "title": "Pilot’s Handbook of Aeronautical Knowledge",
+        "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf#page=350",
+        "locator": "Chapter 14, printed pages 14-16–14-17, Visual Approach Slope Indicator",
+        "edition": "FAA-H-8083-25C, 2023",
+        "verified": "2026-10-13"
+      }
+    ],
+    "figure": {
+      "src": "assets/figure-47.png",
+      "caption": "FAA-CT-8080-2H • Figure 47 — VASI Illustrations",
+      "alt": "Authentic FAA testing-supplement Figure 47: VASI Illustrations. Open the figure to read its labeled data."
+    },
+    "kind": "authored"
+  },
+  {
+    "id": "fig-a-019",
+    "category": "airports",
+    "objective": "runway-and-taxiway-markings",
+    "prompt": "In Figure 48, how should the runway pavement indicated by C be treated for takeoff and landing?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "That runway pavement is closed to takeoff and landing",
+        "why": "The pavement at C contains X markings indicating a closed runway. A displaced threshold instead uses arrow markings and a threshold bar; X-marked closed runway pavement is not a normal takeoff or landing area."
+      },
+      {
+        "id": "b",
+        "text": "It is a displaced threshold available for landing from either direction",
+        "why": "A displaced threshold uses arrows and a threshold bar, whereas the marked pavement here has closure Xs."
+      },
+      {
+        "id": "c",
+        "text": "It is the preferred touchdown zone on the active runway",
+        "why": "Touchdown zones use standard runway bars, not closure Xs."
+      }
+    ],
+    "answer": "a",
+    "explanation": "The pavement at C contains X markings indicating a closed runway. A displaced threshold instead uses arrow markings and a threshold bar; X-marked closed runway pavement is not a normal takeoff or landing area. This is a training illustration, not a current airport operating chart.",
+    "memoryCue": "",
+    "acs": "PA.II.D.K3",
+    "references": [
+      {
+        "title": "Airman Knowledge Testing Supplement for Sport Pilot, Recreational Pilot, Remote Pilot, and Private Pilot",
+        "url": "https://www.faa.gov/sites/faa.gov/files/training_testing/testing/supplements/sport_rec_private_akts.pdf#page=79",
+        "locator": "Figure 48: Airport Diagram; printed page 2-45, PDF page 79",
+        "edition": "FAA-CT-8080-2H, June 2018",
+        "verified": "2026-10-13"
+      },
+      {
+        "title": "Pilot’s Handbook of Aeronautical Knowledge",
+        "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf#page=348",
+        "locator": "Chapter 14, printed pages 14-14–14-15, Marking Closed Runways and Taxiways",
+        "edition": "FAA-H-8083-25C, 2023",
+        "verified": "2026-10-13"
+      }
+    ],
+    "figure": {
+      "src": "assets/figure-48.png",
+      "caption": "FAA-CT-8080-2H • Figure 48 — Airport Diagram",
+      "alt": "Authentic FAA testing-supplement Figure 48: Airport Diagram. Open the figure to read its labeled data."
+    },
+    "kind": "authored"
+  },
+  {
+    "id": "fig-a-020",
+    "category": "airports",
+    "objective": "runway-and-taxiway-markings",
+    "prompt": "Using Figure 49, which runway pair is marked closed by Xs?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Runways 18 and 36",
+        "why": "Runway 18/36 has arrow/threshold markings rather than closure Xs in this diagram."
+      },
+      {
+        "id": "b",
+        "text": "Only Runway 18",
+        "why": "The Xs are on the diagonal 4/22 runway, not at runway 18."
+      },
+      {
+        "id": "c",
+        "text": "Runways 4 and 22",
+        "why": "The diagonal runway has an X near each end, beside runway numbers 4 and 22. The arrows at the ends of runway 18/36 are different markings and should not be confused with the closure Xs."
+      }
+    ],
+    "answer": "c",
+    "explanation": "The diagonal runway has an X near each end, beside runway numbers 4 and 22. The arrows at the ends of runway 18/36 are different markings and should not be confused with the closure Xs. This is a training illustration, not a current airport operating chart.",
+    "memoryCue": "",
+    "acs": "PA.II.D.K3",
+    "references": [
+      {
+        "title": "Airman Knowledge Testing Supplement for Sport Pilot, Recreational Pilot, Remote Pilot, and Private Pilot",
+        "url": "https://www.faa.gov/sites/faa.gov/files/training_testing/testing/supplements/sport_rec_private_akts.pdf#page=80",
+        "locator": "Figure 49: Airport Diagram; printed page 2-46, PDF page 80",
+        "edition": "FAA-CT-8080-2H, June 2018",
+        "verified": "2026-10-13"
+      },
+      {
+        "title": "Pilot’s Handbook of Aeronautical Knowledge",
+        "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf#page=348",
+        "locator": "Chapter 14, printed pages 14-14–14-15, Closed Runways and Taxiways",
+        "edition": "FAA-H-8083-25C, 2023",
+        "verified": "2026-10-13"
+      }
+    ],
+    "figure": {
+      "src": "assets/figure-49.png",
+      "caption": "FAA-CT-8080-2H • Figure 49 — Airport Diagram",
+      "alt": "Authentic FAA testing-supplement Figure 49: Airport Diagram. Open the figure to read its labeled data."
+    },
+    "kind": "authored"
+  },
+  {
+    "id": "fig-a-021",
+    "category": "airports",
+    "objective": "wind-sock",
+    "prompt": "Using the north arrow and windsock in Figure 50, from which general direction is the wind blowing?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Northeast",
+        "why": "With north at the top, the sock is aligned northwest–southeast, not northeast–southwest."
+      },
+      {
+        "id": "b",
+        "text": "Northwest",
+        "why": "The windsock’s large opening faces northwest and its tapered end extends southeast. Wind direction is named for the direction FROM which it blows, so this illustration indicates a northwesterly wind. The orange annotation arrow labels the cone; it is not the wind vector."
+      },
+      {
+        "id": "c",
+        "text": "Southeast",
+        "why": "The narrow end points downwind toward southeast; the wind is coming from the opposite direction."
+      }
+    ],
+    "answer": "b",
+    "explanation": "The windsock’s large opening faces northwest and its tapered end extends southeast. Wind direction is named for the direction FROM which it blows, so this illustration indicates a northwesterly wind. The orange annotation arrow labels the cone; it is not the wind vector.",
+    "memoryCue": "",
+    "acs": "PA.II.D.K4",
+    "references": [
+      {
+        "title": "Airman Knowledge Testing Supplement for Sport Pilot, Recreational Pilot, Remote Pilot, and Private Pilot",
+        "url": "https://www.faa.gov/sites/faa.gov/files/training_testing/testing/supplements/sport_rec_private_akts.pdf#page=81",
+        "locator": "Figure 50: Wind Sock Airport Landing Indicator; printed page 2-47, PDF page 81",
+        "edition": "FAA-CT-8080-2H, June 2018",
+        "verified": "2026-10-13"
+      },
+      {
+        "title": "Pilot’s Handbook of Aeronautical Knowledge",
+        "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf#page=354",
+        "locator": "Chapter 14, printed page 14-20, Wind Direction Indicators",
+        "edition": "FAA-H-8083-25C, 2023",
+        "verified": "2026-10-13"
+      }
+    ],
+    "figure": {
+      "src": "assets/figure-50.png",
+      "caption": "FAA-CT-8080-2H • Figure 50 — Wind Sock Airport Landing Indicator",
+      "alt": "Authentic FAA testing-supplement Figure 50: Wind Sock Airport Landing Indicator. Open the figure to read its labeled data."
+    },
+    "kind": "authored"
+  },
+  {
+    "id": "fig-a-022",
+    "category": "airports",
+    "objective": "runway-and-taxiway-markings",
+    "prompt": "What does the pavement marking indicated by B in Figure 64 identify?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "An ILS critical-area holding position",
+        "why": "B points to the yellow ladder-like ILS critical-area holding marking. When ATC instructs you to hold short of the ILS critical area, stop so no part of the airplane extends beyond this marking, protecting the navigation signal."
+      },
+      {
+        "id": "b",
+        "text": "The boundary between a parking ramp and a nonmovement area",
+        "why": "Nonmovement-area boundaries use a different marking; B points to the ILS holding-position ladder."
+      },
+      {
+        "id": "c",
+        "text": "A runway aiming-point marking",
+        "why": "Runway aiming points are broad white runway rectangles, not this yellow taxiway ladder."
+      }
+    ],
+    "answer": "a",
+    "explanation": "B points to the yellow ladder-like ILS critical-area holding marking. When ATC instructs you to hold short of the ILS critical area, stop so no part of the airplane extends beyond this marking, protecting the navigation signal.",
+    "memoryCue": "",
+    "acs": "PA.II.D.K3",
+    "references": [
+      {
+        "title": "Airman Knowledge Testing Supplement for Sport Pilot, Recreational Pilot, Remote Pilot, and Private Pilot",
+        "url": "https://www.faa.gov/sites/faa.gov/files/training_testing/testing/supplements/sport_rec_private_akts.pdf#page=95",
+        "locator": "Figure 64: Airport Markings; printed page 2-61, PDF page 95",
+        "edition": "FAA-CT-8080-2H, June 2018",
+        "verified": "2026-10-13"
+      },
+      {
+        "title": "Pilot’s Handbook of Aeronautical Knowledge",
+        "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf#page=346",
+        "locator": "Chapter 14, printed pages 14-12–14-14, ILS Critical-Area Holding Position",
+        "edition": "FAA-H-8083-25C, 2023",
+        "verified": "2026-10-13"
+      }
+    ],
+    "figure": {
+      "src": "assets/figure-64.png",
+      "caption": "FAA-CT-8080-2H • Figure 64 — Airport Markings",
+      "alt": "Authentic FAA testing-supplement Figure 64: Airport Markings. Open the figure to read its labeled data."
+    },
+    "kind": "authored"
+  },
+  {
+    "id": "fig-a-023",
+    "category": "airports",
+    "objective": "airport-signs",
+    "prompt": "In Figure 65, what does the sign labeled E tell you?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Taxiway B is ahead to the right",
+        "why": "A direction sign has a yellow background, black inscription, and arrow, as shown at K. E identifies your present location."
+      },
+      {
+        "id": "b",
+        "text": "You must hold short of Runway B",
+        "why": "Runway mandatory-instruction signs are red with white inscriptions; E is a taxiway location sign."
+      },
+      {
+        "id": "c",
+        "text": "You are on Taxiway B",
+        "why": "E is a black location sign with yellow B and a yellow border, identifying the current taxiway. The yellow-background B with an arrow at K is a direction sign toward Taxiway B, not the location sign asked about."
+      }
+    ],
+    "answer": "c",
+    "explanation": "E is a black location sign with yellow B and a yellow border, identifying the current taxiway. The yellow-background B with an arrow at K is a direction sign toward Taxiway B, not the location sign asked about.",
+    "memoryCue": "",
+    "acs": "PA.II.D.K3",
+    "references": [
+      {
+        "title": "Airman Knowledge Testing Supplement for Sport Pilot, Recreational Pilot, Remote Pilot, and Private Pilot",
+        "url": "https://www.faa.gov/sites/faa.gov/files/training_testing/testing/supplements/sport_rec_private_akts.pdf#page=96",
+        "locator": "Figure 65: U.S. Airport Signs; printed page 2-62, PDF page 96",
+        "edition": "FAA-CT-8080-2H, June 2018",
+        "verified": "2026-10-13"
+      },
+      {
+        "title": "Pilot’s Handbook of Aeronautical Knowledge",
+        "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf#page=349",
+        "locator": "Chapter 14, printed pages 14-15–14-16, Airport Signs",
+        "edition": "FAA-H-8083-25C, 2023",
+        "verified": "2026-10-13"
+      }
+    ],
+    "figure": {
+      "src": "assets/figure-65.png",
+      "caption": "FAA-CT-8080-2H • Figure 65 — U.S. Airport Signs",
+      "alt": "Authentic FAA testing-supplement Figure 65: U.S. Airport Signs. Open the figure to read its labeled data."
+    },
+    "kind": "authored"
+  },
+  {
+    "id": "fig-a-024",
+    "category": "airports",
+    "objective": "airport-signs",
+    "prompt": "What remaining runway distance is indicated by sign L in Figure 65?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "The beginning of Runway 04",
+        "why": "The sign type reports remaining length; a runway designation is shown by different signs/markings."
+      },
+      {
+        "id": "b",
+        "text": "4,000 feet of runway remaining",
+        "why": "The black-and-white distance-remaining sign shows runway distance in thousands of feet. Its 4 means 4,000 feet remain, unlike runway-location or direction signs elsewhere in the illustration."
+      },
+      {
+        "id": "c",
+        "text": "400 feet of runway remaining",
+        "why": "Distance-remaining signs use thousands of feet, not hundreds."
+      }
+    ],
+    "answer": "b",
+    "explanation": "The black-and-white distance-remaining sign shows runway distance in thousands of feet. Its 4 means 4,000 feet remain, unlike runway-location or direction signs elsewhere in the illustration.",
+    "memoryCue": "",
+    "acs": "PA.II.D.K3",
+    "references": [
+      {
+        "title": "Airman Knowledge Testing Supplement for Sport Pilot, Recreational Pilot, Remote Pilot, and Private Pilot",
+        "url": "https://www.faa.gov/sites/faa.gov/files/training_testing/testing/supplements/sport_rec_private_akts.pdf#page=96",
+        "locator": "Figure 65: U.S. Airport Signs; printed page 2-62, PDF page 96",
+        "edition": "FAA-CT-8080-2H, June 2018",
+        "verified": "2026-10-13"
+      },
+      {
+        "title": "Pilot’s Handbook of Aeronautical Knowledge",
+        "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf#page=350",
+        "locator": "Chapter 14, printed page 14-16, Runway Distance Remaining Signs",
+        "edition": "FAA-H-8083-25C, 2023",
+        "verified": "2026-10-13"
+      }
+    ],
+    "figure": {
+      "src": "assets/figure-65.png",
+      "caption": "FAA-CT-8080-2H • Figure 65 — U.S. Airport Signs",
+      "alt": "Authentic FAA testing-supplement Figure 65: U.S. Airport Signs. Open the figure to read its labeled data."
+    },
+    "kind": "authored"
+  }
+]

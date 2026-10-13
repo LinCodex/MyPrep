@@ -1,6 +1,6 @@
 # Private Pilot Prep
 
-Personal FAA PAR study webapp. Buildless HTML/CSS/JavaScript with IndexedDB, a service worker, versioned question banks, and a deterministic adaptive practice engine.
+Personal FAA PAR study webapp. Buildless HTML/CSS/JavaScript with IndexedDB, a service worker, versioned question banks, and a deterministic adaptive practice engine. The bank ships with 600 foundational questions and 60 added figure questions; 69 questions use 33 authentic FAA figures.
 
 ## Run
 
@@ -16,7 +16,7 @@ The hosted deployment uses `.openai/hosting.json` and the Sites source/publishin
 
 ## Content updates
 
-1. Edit `dist/data/bank-a.json` or `bank-b.json` and check each answer against current official sources. Preserve an existing ID when the learning objective is unchanged. Use new IDs for different questions.
+1. Edit the versioned question JSON files in `dist/data/` and check each answer against current official sources. Preserve an existing ID when the learning objective is unchanged. Use new IDs for different questions.
 2. Maintain category counts for the initial 600-question base release. Additional authored content should ship as packs, or revise the build count checks intentionally for a new base release.
 3. Increment `VERSION` in `dist/engine.mjs`, then run the build and tests. The service-worker cache name includes that version.
 4. Publish the exact pushed source with a matching deployment archive through Sites.

@@ -1,0 +1,1859 @@
+[
+  {
+    "id": "fig-b-001",
+    "category": "instruments",
+    "objective": "altimetry",
+    "prompt": "In Figure 3, the longest hand of altimeter 1 points to 5. What hundreds-of-feet component does it indicate?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "5,000 feet",
+        "why": "5,000 feet is a thousands-hand reading, not the component shown by this longest hand."
+      },
+      {
+        "id": "b",
+        "text": "50 feet",
+        "why": "The numbered divisions represent hundreds, not tens, of feet."
+      },
+      {
+        "id": "c",
+        "text": "500 feet",
+        "why": "The longest hand makes one revolution per 1,000 feet; each numbered mark represents 100 feet. At 5 it contributes 500 feet. Read the other hands too to determine total altitude."
+      }
+    ],
+    "answer": "c",
+    "explanation": "The longest hand makes one revolution per 1,000 feet; each numbered mark represents 100 feet. At 5 it contributes 500 feet. Read the other hands too to determine total altitude.",
+    "memoryCue": "",
+    "acs": "PA.I.G.K1h",
+    "references": [
+      {
+        "title": "FAA Airman Knowledge Testing Supplement",
+        "url": "https://www.faa.gov/sites/faa.gov/files/training_testing/testing/supplements/sport_rec_private_akts.pdf#page=37",
+        "locator": "Figure 3, printed page 2-3; actual source data and labels",
+        "edition": "FAA-CT-8080-2H, 2018",
+        "verified": "2026-10-13"
+      },
+      {
+        "title": "Pilot’s Handbook of Aeronautical Knowledge",
+        "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf#page=206",
+        "locator": "Printed page 8-4; topic: high low pressure",
+        "edition": "FAA-H-8083-25C, 2023",
+        "verified": "2026-10-13"
+      }
+    ],
+    "figure": {
+      "src": "assets/figure-3.png",
+      "caption": "FAA-CT-8080-2H · Figure 3",
+      "alt": "Original FAA testing supplement Figure 3, used to read the data required by this question."
+    },
+    "kind": "authored",
+    "template": null,
+    "params": null
+  },
+  {
+    "id": "fig-b-002",
+    "category": "instruments",
+    "objective": "altimetry",
+    "prompt": "What altimeter setting is centered in the barometric window of instrument 2 in Figure 3?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "30.5 inHg",
+        "why": "30.5 is not shown in this window."
+      },
+      {
+        "id": "b",
+        "text": "29.5 inHg",
+        "why": "The window in instrument 2 centers 29.5 between 29.4 and 29.6. This is the pressure setting, separate from the altitude pointers."
+      },
+      {
+        "id": "c",
+        "text": "29.9 inHg",
+        "why": "29.9 is not the centered number in this window."
+      }
+    ],
+    "answer": "b",
+    "explanation": "The window in instrument 2 centers 29.5 between 29.4 and 29.6. This is the pressure setting, separate from the altitude pointers.",
+    "memoryCue": "",
+    "acs": "PA.I.G.K1h",
+    "references": [
+      {
+        "title": "FAA Airman Knowledge Testing Supplement",
+        "url": "https://www.faa.gov/sites/faa.gov/files/training_testing/testing/supplements/sport_rec_private_akts.pdf#page=37",
+        "locator": "Figure 3, printed page 2-3; actual source data and labels",
+        "edition": "FAA-CT-8080-2H, 2018",
+        "verified": "2026-10-13"
+      },
+      {
+        "title": "Pilot’s Handbook of Aeronautical Knowledge",
+        "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf#page=206",
+        "locator": "Printed page 8-4; topic: high low pressure",
+        "edition": "FAA-H-8083-25C, 2023",
+        "verified": "2026-10-13"
+      }
+    ],
+    "figure": {
+      "src": "assets/figure-3.png",
+      "caption": "FAA-CT-8080-2H · Figure 3",
+      "alt": "Original FAA testing supplement Figure 3, used to read the data required by this question."
+    },
+    "kind": "authored",
+    "template": null,
+    "params": null
+  },
+  {
+    "id": "fig-b-003",
+    "category": "instruments",
+    "objective": "airspeed-indications",
+    "prompt": "Approximately what indicated airspeed does the needle show in Figure 4?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "130 knots",
+        "why": "The needle points halfway between the 120- and 140-knot marks. The face explicitly says KNOTS, so the indication is about 130 knots."
+      },
+      {
+        "id": "b",
+        "text": "130 miles per hour",
+        "why": "The instrument face specifies knots, not miles per hour."
+      },
+      {
+        "id": "c",
+        "text": "210 knots",
+        "why": "210 knots is the red-line region; the needle is much lower."
+      }
+    ],
+    "answer": "a",
+    "explanation": "The needle points halfway between the 120- and 140-knot marks. The face explicitly says KNOTS, so the indication is about 130 knots.",
+    "memoryCue": "",
+    "acs": "PA.I.G.K1h",
+    "references": [
+      {
+        "title": "FAA Airman Knowledge Testing Supplement",
+        "url": "https://www.faa.gov/sites/faa.gov/files/training_testing/testing/supplements/sport_rec_private_akts.pdf#page=38",
+        "locator": "Figure 4, printed page 2-4; actual source data and labels",
+        "edition": "FAA-CT-8080-2H, 2018",
+        "verified": "2026-10-13"
+      },
+      {
+        "title": "Pilot’s Handbook of Aeronautical Knowledge",
+        "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf#page=211",
+        "locator": "Printed page 8-9; topic: ias",
+        "edition": "FAA-H-8083-25C, 2023",
+        "verified": "2026-10-13"
+      }
+    ],
+    "figure": {
+      "src": "assets/figure-4.png",
+      "caption": "FAA-CT-8080-2H · Figure 4",
+      "alt": "Original FAA testing supplement Figure 4, used to read the data required by this question."
+    },
+    "kind": "authored",
+    "template": null,
+    "params": null
+  },
+  {
+    "id": "fig-b-004",
+    "category": "instruments",
+    "objective": "airspeed-indications",
+    "prompt": "Which marked speed in Figure 4 is the never-exceed red line?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "145 knots",
+        "why": "About 145 knots marks the green-to-yellow transition, not the red line."
+      },
+      {
+        "id": "b",
+        "text": "240 knots",
+        "why": "240 is a numbered scale mark beyond the red line, not the permitted limit."
+      },
+      {
+        "id": "c",
+        "text": "210 knots",
+        "why": "The red radial marking is at approximately 210 knots. A radial red line marks VNE; the yellow arc represents the caution range."
+      }
+    ],
+    "answer": "c",
+    "explanation": "The red radial marking is at approximately 210 knots. A radial red line marks VNE; the yellow arc represents the caution range.",
+    "memoryCue": "",
+    "acs": "PA.I.G.K1h",
+    "references": [
+      {
+        "title": "FAA Airman Knowledge Testing Supplement",
+        "url": "https://www.faa.gov/sites/faa.gov/files/training_testing/testing/supplements/sport_rec_private_akts.pdf#page=38",
+        "locator": "Figure 4, printed page 2-4; actual source data and labels",
+        "edition": "FAA-CT-8080-2H, 2018",
+        "verified": "2026-10-13"
+      },
+      {
+        "title": "Pilot’s Handbook of Aeronautical Knowledge",
+        "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf#page=211",
+        "locator": "Printed page 8-9; topic: ias",
+        "edition": "FAA-H-8083-25C, 2023",
+        "verified": "2026-10-13"
+      }
+    ],
+    "figure": {
+      "src": "assets/figure-4.png",
+      "caption": "FAA-CT-8080-2H · Figure 4",
+      "alt": "Original FAA testing supplement Figure 4, used to read the data required by this question."
+    },
+    "kind": "authored",
+    "template": null,
+    "params": null
+  },
+  {
+    "id": "fig-b-005",
+    "category": "instruments",
+    "objective": "turn-coordination",
+    "prompt": "What does the ball centered between the reference marks in Figure 5 indicate?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "A left skid",
+        "why": "A skid likewise displaces the ball from the reference center."
+      },
+      {
+        "id": "b",
+        "text": "Coordinated flight",
+        "why": "The ball is centered, indicating no lateral unbalance at the inclinometer. The miniature airplane is also level in this illustration."
+      },
+      {
+        "id": "c",
+        "text": "A right slip",
+        "why": "A slip requires an off-center ball; the pictured ball is centered."
+      }
+    ],
+    "answer": "b",
+    "explanation": "The ball is centered, indicating no lateral unbalance at the inclinometer. The miniature airplane is also level in this illustration.",
+    "memoryCue": "",
+    "acs": "PA.I.G.K1h",
+    "references": [
+      {
+        "title": "FAA Airman Knowledge Testing Supplement",
+        "url": "https://www.faa.gov/sites/faa.gov/files/training_testing/testing/supplements/sport_rec_private_akts.pdf#page=39",
+        "locator": "Figure 5, printed page 2-5; actual source data and labels",
+        "edition": "FAA-CT-8080-2H, 2018",
+        "verified": "2026-10-13"
+      },
+      {
+        "title": "Pilot’s Handbook of Aeronautical Knowledge",
+        "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf#page=220",
+        "locator": "Printed page 8-18; topic: ball coordination",
+        "edition": "FAA-H-8083-25C, 2023",
+        "verified": "2026-10-13"
+      }
+    ],
+    "figure": {
+      "src": "assets/figure-5.png",
+      "caption": "FAA-CT-8080-2H · Figure 5",
+      "alt": "Original FAA testing supplement Figure 5, used to read the data required by this question."
+    },
+    "kind": "authored",
+    "template": null,
+    "params": null
+  },
+  {
+    "id": "fig-b-006",
+    "category": "instruments",
+    "objective": "gyroscopic-instruments",
+    "prompt": "Figure 5 is marked “2 MIN.” At its standard-rate indication, how long would a 180-degree heading change take?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "1 minute",
+        "why": "The standard-rate reference corresponds to 360 degrees in two minutes, or 3 degrees per second. 180 / 3 = 60 seconds = one minute."
+      },
+      {
+        "id": "b",
+        "text": "2 minutes",
+        "why": "Two minutes is the time for a complete 360-degree turn, not a half turn."
+      },
+      {
+        "id": "c",
+        "text": "30 seconds",
+        "why": "30 seconds at standard rate changes heading by 90 degrees."
+      }
+    ],
+    "answer": "a",
+    "explanation": "The standard-rate reference corresponds to 360 degrees in two minutes, or 3 degrees per second. 180 / 3 = 60 seconds = one minute.",
+    "memoryCue": "",
+    "acs": "PA.I.G.K1h",
+    "references": [
+      {
+        "title": "FAA Airman Knowledge Testing Supplement",
+        "url": "https://www.faa.gov/sites/faa.gov/files/training_testing/testing/supplements/sport_rec_private_akts.pdf#page=39",
+        "locator": "Figure 5, printed page 2-5; actual source data and labels",
+        "edition": "FAA-CT-8080-2H, 2018",
+        "verified": "2026-10-13"
+      },
+      {
+        "title": "Pilot’s Handbook of Aeronautical Knowledge",
+        "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf#page=217",
+        "locator": "Printed page 8-15; topic: gyro rigidity",
+        "edition": "FAA-H-8083-25C, 2023",
+        "verified": "2026-10-13"
+      }
+    ],
+    "figure": {
+      "src": "assets/figure-5.png",
+      "caption": "FAA-CT-8080-2H · Figure 5",
+      "alt": "Original FAA testing supplement Figure 5, used to read the data required by this question."
+    },
+    "kind": "authored",
+    "template": null,
+    "params": null
+  },
+  {
+    "id": "fig-b-007",
+    "category": "instruments",
+    "objective": "gyroscopic-instruments",
+    "prompt": "Which component does label B identify in Figure 7?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "The miniature airplane",
+        "why": "The miniature airplane is the part marked C."
+      },
+      {
+        "id": "b",
+        "text": "The bank pointer",
+        "why": "The bank-reference pointer is marked A, above the display."
+      },
+      {
+        "id": "c",
+        "text": "The artificial horizon bar",
+        "why": "B points to the boundary between the sky and ground display. This artificial horizon is the reference against which the fixed miniature airplane is compared."
+      }
+    ],
+    "answer": "c",
+    "explanation": "B points to the boundary between the sky and ground display. This artificial horizon is the reference against which the fixed miniature airplane is compared.",
+    "memoryCue": "",
+    "acs": "PA.I.G.K1h",
+    "references": [
+      {
+        "title": "FAA Airman Knowledge Testing Supplement",
+        "url": "https://www.faa.gov/sites/faa.gov/files/training_testing/testing/supplements/sport_rec_private_akts.pdf#page=41",
+        "locator": "Figure 7, printed page 2-7; actual source data and labels",
+        "edition": "FAA-CT-8080-2H, 2018",
+        "verified": "2026-10-13"
+      },
+      {
+        "title": "Pilot’s Handbook of Aeronautical Knowledge",
+        "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf#page=217",
+        "locator": "Printed page 8-15; topic: gyro rigidity",
+        "edition": "FAA-H-8083-25C, 2023",
+        "verified": "2026-10-13"
+      }
+    ],
+    "figure": {
+      "src": "assets/figure-7.png",
+      "caption": "FAA-CT-8080-2H · Figure 7",
+      "alt": "Original FAA testing supplement Figure 7, used to read the data required by this question."
+    },
+    "kind": "authored",
+    "template": null,
+    "params": null
+  },
+  {
+    "id": "fig-b-008",
+    "category": "instruments",
+    "objective": "gyroscopic-instruments",
+    "prompt": "What does label C identify in Figure 7?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "The roll-scale pointer",
+        "why": "The roll reference at the top is marked A."
+      },
+      {
+        "id": "b",
+        "text": "The fixed miniature airplane",
+        "why": "C points to the miniature airplane fixed to the instrument case. Its relationship to the moving horizon indicates pitch and bank attitude."
+      },
+      {
+        "id": "c",
+        "text": "The artificial horizon",
+        "why": "The artificial horizon is marked B, not C."
+      }
+    ],
+    "answer": "b",
+    "explanation": "C points to the miniature airplane fixed to the instrument case. Its relationship to the moving horizon indicates pitch and bank attitude.",
+    "memoryCue": "",
+    "acs": "PA.I.G.K1h",
+    "references": [
+      {
+        "title": "FAA Airman Knowledge Testing Supplement",
+        "url": "https://www.faa.gov/sites/faa.gov/files/training_testing/testing/supplements/sport_rec_private_akts.pdf#page=41",
+        "locator": "Figure 7, printed page 2-7; actual source data and labels",
+        "edition": "FAA-CT-8080-2H, 2018",
+        "verified": "2026-10-13"
+      },
+      {
+        "title": "Pilot’s Handbook of Aeronautical Knowledge",
+        "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf#page=217",
+        "locator": "Printed page 8-15; topic: gyro rigidity",
+        "edition": "FAA-H-8083-25C, 2023",
+        "verified": "2026-10-13"
+      }
+    ],
+    "figure": {
+      "src": "assets/figure-7.png",
+      "caption": "FAA-CT-8080-2H · Figure 7",
+      "alt": "Original FAA testing supplement Figure 7, used to read the data required by this question."
+    },
+    "kind": "authored",
+    "template": null,
+    "params": null
+  },
+  {
+    "id": "fig-b-009",
+    "category": "navigation",
+    "objective": "vor-navigation",
+    "prompt": "In Figure 28, indicator 5 is centered with 210 selected and TO displayed. On which radial is the airplane located?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "030-degree radial",
+        "why": "A centered 210-degree TO course puts the airplane on the reciprocal, 030-degree radial. A radial is always named outward FROM the station. This indication alone does not establish the airplane’s heading."
+      },
+      {
+        "id": "b",
+        "text": "210-degree radial",
+        "why": "210 is the selected inbound course, not the outward radial in this TO indication."
+      },
+      {
+        "id": "c",
+        "text": "The radial cannot be determined from TO/FROM",
+        "why": "The centered needle plus selected course and TO indication determine the reciprocal radial."
+      }
+    ],
+    "answer": "a",
+    "explanation": "A centered 210-degree TO course puts the airplane on the reciprocal, 030-degree radial. A radial is always named outward FROM the station. This indication alone does not establish the airplane’s heading.",
+    "memoryCue": "",
+    "acs": "PA.VI.B.K1",
+    "references": [
+      {
+        "title": "FAA Airman Knowledge Testing Supplement",
+        "url": "https://www.faa.gov/sites/faa.gov/files/training_testing/testing/supplements/sport_rec_private_akts.pdf#page=61",
+        "locator": "Figure 28, printed page 2-27; actual source data and labels",
+        "edition": "FAA-CT-8080-2H, 2018",
+        "verified": "2026-10-13"
+      },
+      {
+        "title": "Pilot’s Handbook of Aeronautical Knowledge",
+        "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf#page=410",
+        "locator": "Printed page 16-23; topic: vor radial",
+        "edition": "FAA-H-8083-25C, 2023",
+        "verified": "2026-10-13"
+      }
+    ],
+    "figure": {
+      "src": "assets/figure-28.png",
+      "caption": "FAA-CT-8080-2H · Figure 28",
+      "alt": "Original FAA testing supplement Figure 28, used to read the data required by this question."
+    },
+    "kind": "authored",
+    "template": null,
+    "params": null
+  },
+  {
+    "id": "fig-b-010",
+    "category": "navigation",
+    "objective": "vor-navigation",
+    "prompt": "Which numbered indicator in Figure 28 has a centered CDI, 210 selected, and FROM displayed?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Indicator 5",
+        "why": "Indicator 5 shows TO rather than FROM."
+      },
+      {
+        "id": "b",
+        "text": "Indicator 8",
+        "why": "Indicator 8 selects 030 and shows TO."
+      },
+      {
+        "id": "c",
+        "text": "Indicator 2",
+        "why": "Indicator 2 selects 210, centers the CDI, and shows the FROM triangle. Indicator 5 selects the same course but shows TO; 8 selects 030."
+      }
+    ],
+    "answer": "c",
+    "explanation": "Indicator 2 selects 210, centers the CDI, and shows the FROM triangle. Indicator 5 selects the same course but shows TO; 8 selects 030.",
+    "memoryCue": "",
+    "acs": "PA.VI.B.K1",
+    "references": [
+      {
+        "title": "FAA Airman Knowledge Testing Supplement",
+        "url": "https://www.faa.gov/sites/faa.gov/files/training_testing/testing/supplements/sport_rec_private_akts.pdf#page=61",
+        "locator": "Figure 28, printed page 2-27; actual source data and labels",
+        "edition": "FAA-CT-8080-2H, 2018",
+        "verified": "2026-10-13"
+      },
+      {
+        "title": "Pilot’s Handbook of Aeronautical Knowledge",
+        "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf#page=410",
+        "locator": "Printed page 16-23; topic: vor radial",
+        "edition": "FAA-H-8083-25C, 2023",
+        "verified": "2026-10-13"
+      }
+    ],
+    "figure": {
+      "src": "assets/figure-28.png",
+      "caption": "FAA-CT-8080-2H · Figure 28",
+      "alt": "Original FAA testing supplement Figure 28, used to read the data required by this question."
+    },
+    "kind": "authored",
+    "template": null,
+    "params": null
+  },
+  {
+    "id": "fig-b-011",
+    "category": "navigation",
+    "objective": "vor-navigation",
+    "prompt": "In Figure 28, what course is selected on indicator 8, which displays a centered CDI and TO?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "120 degrees",
+        "why": "120 is at the side of the card, not under the top course reference."
+      },
+      {
+        "id": "b",
+        "text": "030 degrees",
+        "why": "The number 3 at the top of indicator 8 represents 030 degrees. With the centered needle and TO indication, 030 is the selected inbound course."
+      },
+      {
+        "id": "c",
+        "text": "210 degrees",
+        "why": "210 is the reciprocal radial, not the OBS course selected at the top."
+      }
+    ],
+    "answer": "b",
+    "explanation": "The number 3 at the top of indicator 8 represents 030 degrees. With the centered needle and TO indication, 030 is the selected inbound course.",
+    "memoryCue": "",
+    "acs": "PA.VI.B.K1",
+    "references": [
+      {
+        "title": "FAA Airman Knowledge Testing Supplement",
+        "url": "https://www.faa.gov/sites/faa.gov/files/training_testing/testing/supplements/sport_rec_private_akts.pdf#page=61",
+        "locator": "Figure 28, printed page 2-27; actual source data and labels",
+        "edition": "FAA-CT-8080-2H, 2018",
+        "verified": "2026-10-13"
+      },
+      {
+        "title": "Pilot’s Handbook of Aeronautical Knowledge",
+        "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf#page=410",
+        "locator": "Printed page 16-23; topic: vor radial",
+        "edition": "FAA-H-8083-25C, 2023",
+        "verified": "2026-10-13"
+      }
+    ],
+    "figure": {
+      "src": "assets/figure-28.png",
+      "caption": "FAA-CT-8080-2H · Figure 28",
+      "alt": "Original FAA testing supplement Figure 28, used to read the data required by this question."
+    },
+    "kind": "authored",
+    "template": null,
+    "params": null
+  },
+  {
+    "id": "fig-b-012",
+    "category": "navigation",
+    "objective": "vor-navigation",
+    "prompt": "Indicator 9 in Figure 28 centers the CDI with 030 selected and FROM displayed. Which outbound course follows this indication?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "030 degrees",
+        "why": "The selected centered FROM course is 030 degrees outbound. Wind correction may require a different heading; a VOR course display does not itself show aircraft heading."
+      },
+      {
+        "id": "b",
+        "text": "210 degrees",
+        "why": "210 is the reciprocal inbound course, not the centered FROM course selected here."
+      },
+      {
+        "id": "c",
+        "text": "The airplane’s current heading must be 030",
+        "why": "The instrument indicates a course relationship, not proof of the aircraft’s actual heading."
+      }
+    ],
+    "answer": "a",
+    "explanation": "The selected centered FROM course is 030 degrees outbound. Wind correction may require a different heading; a VOR course display does not itself show aircraft heading.",
+    "memoryCue": "",
+    "acs": "PA.VI.B.K1",
+    "references": [
+      {
+        "title": "FAA Airman Knowledge Testing Supplement",
+        "url": "https://www.faa.gov/sites/faa.gov/files/training_testing/testing/supplements/sport_rec_private_akts.pdf#page=61",
+        "locator": "Figure 28, printed page 2-27; actual source data and labels",
+        "edition": "FAA-CT-8080-2H, 2018",
+        "verified": "2026-10-13"
+      },
+      {
+        "title": "Pilot’s Handbook of Aeronautical Knowledge",
+        "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf#page=410",
+        "locator": "Printed page 16-23; topic: vor radial",
+        "edition": "FAA-H-8083-25C, 2023",
+        "verified": "2026-10-13"
+      }
+    ],
+    "figure": {
+      "src": "assets/figure-28.png",
+      "caption": "FAA-CT-8080-2H · Figure 28",
+      "alt": "Original FAA testing supplement Figure 28, used to read the data required by this question."
+    },
+    "kind": "authored",
+    "template": null,
+    "params": null
+  },
+  {
+    "id": "fig-b-013",
+    "category": "navigation",
+    "objective": "heading-and-track",
+    "prompt": "Using Figure 58, what compass heading should be steered for a magnetic heading of east?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "090 degrees",
+        "why": "090 is the desired magnetic heading before applying this aircraft’s compass-card correction."
+      },
+      {
+        "id": "b",
+        "text": "095 degrees",
+        "why": "095 applies the opposite sign from the published correction."
+      },
+      {
+        "id": "c",
+        "text": "085 degrees",
+        "why": "Read FOR E in the upper row, then STEER 85 below it. The card corrects magnetic-compass deviation; variation should already have been applied to obtain magnetic heading."
+      }
+    ],
+    "answer": "c",
+    "explanation": "Read FOR E in the upper row, then STEER 85 below it. The card corrects magnetic-compass deviation; variation should already have been applied to obtain magnetic heading.",
+    "memoryCue": "",
+    "acs": "PA.VI.A.K1",
+    "references": [
+      {
+        "title": "FAA Airman Knowledge Testing Supplement",
+        "url": "https://www.faa.gov/sites/faa.gov/files/training_testing/testing/supplements/sport_rec_private_akts.pdf#page=89",
+        "locator": "Figure 58, printed page 2-55; actual source data and labels",
+        "edition": "FAA-CT-8080-2H, 2018",
+        "verified": "2026-10-13"
+      },
+      {
+        "title": "Pilot’s Handbook of Aeronautical Knowledge",
+        "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf#page=393",
+        "locator": "Printed page 16-6; topic: true course",
+        "edition": "FAA-H-8083-25C, 2023",
+        "verified": "2026-10-13"
+      }
+    ],
+    "figure": {
+      "src": "assets/figure-58.png",
+      "caption": "FAA-CT-8080-2H · Figure 58",
+      "alt": "Original FAA testing supplement Figure 58, used to read the data required by this question."
+    },
+    "kind": "authored",
+    "template": null,
+    "params": null
+  },
+  {
+    "id": "fig-b-014",
+    "category": "navigation",
+    "objective": "heading-and-track",
+    "prompt": "Using Figure 58, what compass indication corresponds to a desired magnetic heading of 240 degrees?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "240 degrees",
+        "why": "240 ignores the deviation correction specified by this card."
+      },
+      {
+        "id": "b",
+        "text": "244 degrees",
+        "why": "The lower FOR row lists 240; the STEER value below is 244. This is a +4-degree compass-card correction for this direction."
+      },
+      {
+        "id": "c",
+        "text": "236 degrees",
+        "why": "236 reverses the sign of the correction."
+      }
+    ],
+    "answer": "b",
+    "explanation": "The lower FOR row lists 240; the STEER value below is 244. This is a +4-degree compass-card correction for this direction.",
+    "memoryCue": "",
+    "acs": "PA.VI.A.K1",
+    "references": [
+      {
+        "title": "FAA Airman Knowledge Testing Supplement",
+        "url": "https://www.faa.gov/sites/faa.gov/files/training_testing/testing/supplements/sport_rec_private_akts.pdf#page=89",
+        "locator": "Figure 58, printed page 2-55; actual source data and labels",
+        "edition": "FAA-CT-8080-2H, 2018",
+        "verified": "2026-10-13"
+      },
+      {
+        "title": "Pilot’s Handbook of Aeronautical Knowledge",
+        "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf#page=393",
+        "locator": "Printed page 16-6; topic: true course",
+        "edition": "FAA-H-8083-25C, 2023",
+        "verified": "2026-10-13"
+      }
+    ],
+    "figure": {
+      "src": "assets/figure-58.png",
+      "caption": "FAA-CT-8080-2H · Figure 58",
+      "alt": "Original FAA testing supplement Figure 58, used to read the data required by this question."
+    },
+    "kind": "authored",
+    "template": null,
+    "params": null
+  },
+  {
+    "id": "fig-b-015",
+    "category": "navigation",
+    "objective": "chart-reading",
+    "prompt": "In Figure 20, what does the Norfolk Class C shelf label 40 over 20 mean?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Ceiling 4,000 feet MSL; floor 2,000 feet MSL",
+        "why": "Class C shelf numbers are hundreds of feet MSL: 40 is 4,000 and 20 is 2,000. The shelf label is separate from the 40/SFC label around the airport. This historical excerpt is for training, not navigation."
+      },
+      {
+        "id": "b",
+        "text": "Ceiling 4,000 feet AGL; floor 2,000 feet AGL",
+        "why": "These shelf values are MSL, not height above the ground."
+      },
+      {
+        "id": "c",
+        "text": "Ceiling 400 feet MSL; floor 200 feet MSL",
+        "why": "The numbers represent hundreds of feet, not tens."
+      }
+    ],
+    "answer": "a",
+    "explanation": "Class C shelf numbers are hundreds of feet MSL: 40 is 4,000 and 20 is 2,000. The shelf label is separate from the 40/SFC label around the airport. This historical excerpt is for training, not navigation.",
+    "memoryCue": "",
+    "acs": "PA.VI.A.K3",
+    "references": [
+      {
+        "title": "FAA Airman Knowledge Testing Supplement",
+        "url": "https://www.faa.gov/sites/faa.gov/files/training_testing/testing/supplements/sport_rec_private_akts.pdf#page=53",
+        "locator": "Figure 20, printed page 2-19; actual source data and labels",
+        "edition": "FAA-CT-8080-2H, 2018",
+        "verified": "2026-10-13"
+      },
+      {
+        "title": "Pilot’s Handbook of Aeronautical Knowledge",
+        "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf#page=390",
+        "locator": "Printed page 16-3; topic: latitude",
+        "edition": "FAA-H-8083-25C, 2023",
+        "verified": "2026-10-13"
+      }
+    ],
+    "figure": {
+      "src": "assets/figure-20.png",
+      "caption": "FAA-CT-8080-2H · Figure 20",
+      "alt": "Original FAA testing supplement Figure 20, used to read the data required by this question."
+    },
+    "kind": "authored",
+    "template": null,
+    "params": null
+  },
+  {
+    "id": "fig-b-016",
+    "category": "navigation",
+    "objective": "chart-reading",
+    "prompt": "What field elevation is printed beside Garrison Dam (37N) in Figure 21?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "3,700 feet MSL",
+        "why": "37N is an airport identifier, not an elevation expressed in hundreds."
+      },
+      {
+        "id": "b",
+        "text": "1,723 feet AGL",
+        "why": "Published airport field elevation is MSL, not height above the airport’s own ground."
+      },
+      {
+        "id": "c",
+        "text": "1,723 feet MSL",
+        "why": "The airport data starts with 1723, its elevation above mean sea level. 37N is its identifier. This is historical chart-reading practice only."
+      }
+    ],
+    "answer": "c",
+    "explanation": "The airport data starts with 1723, its elevation above mean sea level. 37N is its identifier. This is historical chart-reading practice only.",
+    "memoryCue": "",
+    "acs": "PA.VI.A.K3",
+    "references": [
+      {
+        "title": "FAA Airman Knowledge Testing Supplement",
+        "url": "https://www.faa.gov/sites/faa.gov/files/training_testing/testing/supplements/sport_rec_private_akts.pdf#page=54",
+        "locator": "Figure 21, printed page 2-20; actual source data and labels",
+        "edition": "FAA-CT-8080-2H, 2018",
+        "verified": "2026-10-13"
+      },
+      {
+        "title": "Pilot’s Handbook of Aeronautical Knowledge",
+        "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf#page=390",
+        "locator": "Printed page 16-3; topic: latitude",
+        "edition": "FAA-H-8083-25C, 2023",
+        "verified": "2026-10-13"
+      }
+    ],
+    "figure": {
+      "src": "assets/figure-21.png",
+      "caption": "FAA-CT-8080-2H · Figure 21",
+      "alt": "Original FAA testing supplement Figure 21, used to read the data required by this question."
+    },
+    "kind": "authored",
+    "template": null,
+    "params": null
+  },
+  {
+    "id": "fig-b-017",
+    "category": "navigation",
+    "objective": "chart-reading",
+    "prompt": "In Figure 21, the obstruction labeled 3,147 with (1,081) beneath it is how high above the ground?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "2,066 feet AGL",
+        "why": "2,066 is the implied ground elevation from 3,147 − 1,081, not the structure’s height."
+      },
+      {
+        "id": "b",
+        "text": "1,081 feet AGL",
+        "why": "The unparenthesized obstruction value is top elevation MSL; the parenthesized number is height AGL. Therefore the structure is 1,081 feet AGL. This excerpt is a historical training chart."
+      },
+      {
+        "id": "c",
+        "text": "3,147 feet AGL",
+        "why": "3,147 is the obstruction’s MSL top elevation, not its AGL height."
+      }
+    ],
+    "answer": "b",
+    "explanation": "The unparenthesized obstruction value is top elevation MSL; the parenthesized number is height AGL. Therefore the structure is 1,081 feet AGL. This excerpt is a historical training chart.",
+    "memoryCue": "",
+    "acs": "PA.VI.A.K3",
+    "references": [
+      {
+        "title": "FAA Airman Knowledge Testing Supplement",
+        "url": "https://www.faa.gov/sites/faa.gov/files/training_testing/testing/supplements/sport_rec_private_akts.pdf#page=54",
+        "locator": "Figure 21, printed page 2-20; actual source data and labels",
+        "edition": "FAA-CT-8080-2H, 2018",
+        "verified": "2026-10-13"
+      },
+      {
+        "title": "Pilot’s Handbook of Aeronautical Knowledge",
+        "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf#page=390",
+        "locator": "Printed page 16-3; topic: latitude",
+        "edition": "FAA-H-8083-25C, 2023",
+        "verified": "2026-10-13"
+      }
+    ],
+    "figure": {
+      "src": "assets/figure-21.png",
+      "caption": "FAA-CT-8080-2H · Figure 21",
+      "alt": "Original FAA testing supplement Figure 21, used to read the data required by this question."
+    },
+    "kind": "authored",
+    "template": null,
+    "params": null
+  },
+  {
+    "id": "fig-b-018",
+    "category": "navigation",
+    "objective": "preflight-planning",
+    "prompt": "In Figure 31, what landing distance available is listed for runway 01 at Coeur d’Alene?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "5,400 feet",
+        "why": "The runway declared-distance block lists RWY 01 LDA = 5,400. The other main runway pair has 7,400 feet. Use current Chart Supplement/NOTAM data for actual operations; this is a historical example."
+      },
+      {
+        "id": "b",
+        "text": "7,400 feet",
+        "why": "7,400 belongs to runways 05/23, not runway 01."
+      },
+      {
+        "id": "c",
+        "text": "4,500 feet",
+        "why": "4,500 is not the LDA stated for runway 01."
+      }
+    ],
+    "answer": "a",
+    "explanation": "The runway declared-distance block lists RWY 01 LDA = 5,400. The other main runway pair has 7,400 feet. Use current Chart Supplement/NOTAM data for actual operations; this is a historical example.",
+    "memoryCue": "",
+    "acs": "PA.VI.A.K1",
+    "references": [
+      {
+        "title": "FAA Airman Knowledge Testing Supplement",
+        "url": "https://www.faa.gov/sites/faa.gov/files/training_testing/testing/supplements/sport_rec_private_akts.pdf#page=62",
+        "locator": "Figure 31, printed page 2-28; actual source data and labels",
+        "edition": "FAA-CT-8080-2H, 2018",
+        "verified": "2026-10-13"
+      },
+      {
+        "title": "Pilot’s Handbook of Aeronautical Knowledge",
+        "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf#page=400",
+        "locator": "Printed page 16-13; topic: pilotage",
+        "edition": "FAA-H-8083-25C, 2023",
+        "verified": "2026-10-13"
+      }
+    ],
+    "figure": {
+      "src": "assets/figure-31.png",
+      "caption": "FAA-CT-8080-2H · Figure 31",
+      "alt": "Original FAA testing supplement Figure 31, used to read the data required by this question."
+    },
+    "kind": "authored",
+    "template": null,
+    "params": null
+  },
+  {
+    "id": "fig-b-019",
+    "category": "navigation",
+    "objective": "preflight-planning",
+    "prompt": "In Figure 52, what LDA is listed for Lincoln runway 14, whose TORA is 8,649 feet?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "8,649 feet",
+        "why": "8,649 is TORA, not runway 14 LDA."
+      },
+      {
+        "id": "b",
+        "text": "7,816 feet",
+        "why": "7,816 is the LDA for the opposite runway, 32."
+      },
+      {
+        "id": "c",
+        "text": "8,286 feet",
+        "why": "The declared-distance row for RWY 14 lists LDA 8,286. TORA 8,649 is not the same quantity. The displaced threshold reduces landing distance in this direction. This is historical training data."
+      }
+    ],
+    "answer": "c",
+    "explanation": "The declared-distance row for RWY 14 lists LDA 8,286. TORA 8,649 is not the same quantity. The displaced threshold reduces landing distance in this direction. This is historical training data.",
+    "memoryCue": "",
+    "acs": "PA.VI.A.K1",
+    "references": [
+      {
+        "title": "FAA Airman Knowledge Testing Supplement",
+        "url": "https://www.faa.gov/sites/faa.gov/files/training_testing/testing/supplements/sport_rec_private_akts.pdf#page=83",
+        "locator": "Figure 52, printed page 2-49; actual source data and labels",
+        "edition": "FAA-CT-8080-2H, 2018",
+        "verified": "2026-10-13"
+      },
+      {
+        "title": "Pilot’s Handbook of Aeronautical Knowledge",
+        "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf#page=400",
+        "locator": "Printed page 16-13; topic: pilotage",
+        "edition": "FAA-H-8083-25C, 2023",
+        "verified": "2026-10-13"
+      }
+    ],
+    "figure": {
+      "src": "assets/figure-52.png",
+      "caption": "FAA-CT-8080-2H · Figure 52",
+      "alt": "Original FAA testing supplement Figure 52, used to read the data required by this question."
+    },
+    "kind": "authored",
+    "template": null,
+    "params": null
+  },
+  {
+    "id": "fig-b-020",
+    "category": "navigation",
+    "objective": "utc-time",
+    "prompt": "Use Figure 27’s time-conversion table. A flight time is 2130 eastern daylight time. What is UTC, including the date relationship?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "1730 UTC the same day",
+        "why": "Subtracting four hours reverses the local-to-UTC conversion."
+      },
+      {
+        "id": "b",
+        "text": "0130 UTC the next day",
+        "why": "The table says to add four hours for eastern daylight time. 21:30 + 4:00 = 25:30, which is 01:30 on the following UTC date. The five-hour row applies to eastern standard time."
+      },
+      {
+        "id": "c",
+        "text": "0230 UTC the next day",
+        "why": "Five hours is the standard-time offset; daylight time uses four."
+      }
+    ],
+    "answer": "b",
+    "explanation": "The table says to add four hours for eastern daylight time. 21:30 + 4:00 = 25:30, which is 01:30 on the following UTC date. The five-hour row applies to eastern standard time.",
+    "memoryCue": "",
+    "acs": "PA.VI.A.K1",
+    "references": [
+      {
+        "title": "FAA Airman Knowledge Testing Supplement",
+        "url": "https://www.faa.gov/sites/faa.gov/files/training_testing/testing/supplements/sport_rec_private_akts.pdf#page=60",
+        "locator": "Figure 27, printed page 2-26; actual source data and labels",
+        "edition": "FAA-CT-8080-2H, 2018",
+        "verified": "2026-10-13"
+      },
+      {
+        "title": "Pilot’s Handbook of Aeronautical Knowledge",
+        "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf#page=400",
+        "locator": "Printed page 16-13; topic: pilotage",
+        "edition": "FAA-H-8083-25C, 2023",
+        "verified": "2026-10-13"
+      }
+    ],
+    "figure": {
+      "src": "assets/figure-27.png",
+      "caption": "FAA-CT-8080-2H · Figure 27",
+      "alt": "Original FAA testing supplement Figure 27, used to read the data required by this question."
+    },
+    "kind": "authored",
+    "template": null,
+    "params": null
+  },
+  {
+    "id": "fig-b-021",
+    "category": "performance",
+    "objective": "density-altitude-performance",
+    "prompt": "Using Figure 8, what pressure-altitude conversion factor is added to field elevation for an altimeter setting of 29.4 inHg?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "+485 feet",
+        "why": "The 29.4 row lists +485 feet. Add that factor to field elevation to obtain pressure altitude; then enter the density-altitude graph using outside air temperature."
+      },
+      {
+        "id": "b",
+        "text": "−485 feet",
+        "why": "A setting below 29.92 produces a positive correction, not a negative one."
+      },
+      {
+        "id": "c",
+        "text": "+1,824 feet",
+        "why": "1,824 feet is the factor for 28.0, not 29.4."
+      }
+    ],
+    "answer": "a",
+    "explanation": "The 29.4 row lists +485 feet. Add that factor to field elevation to obtain pressure altitude; then enter the density-altitude graph using outside air temperature.",
+    "memoryCue": "",
+    "acs": "PA.I.F.K2",
+    "references": [
+      {
+        "title": "FAA Airman Knowledge Testing Supplement",
+        "url": "https://www.faa.gov/sites/faa.gov/files/training_testing/testing/supplements/sport_rec_private_akts.pdf#page=42",
+        "locator": "Figure 8, printed page 2-8; actual source data and labels",
+        "edition": "FAA-CT-8080-2H, 2018",
+        "verified": "2026-10-13"
+      },
+      {
+        "title": "Pilot’s Handbook of Aeronautical Knowledge",
+        "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf#page=259",
+        "locator": "Printed page 11-3; topic: standard atmosphere",
+        "edition": "FAA-H-8083-25C, 2023",
+        "verified": "2026-10-13"
+      }
+    ],
+    "figure": {
+      "src": "assets/figure-8.png",
+      "caption": "FAA-CT-8080-2H · Figure 8",
+      "alt": "Original FAA testing supplement Figure 8, used to read the data required by this question."
+    },
+    "kind": "authored",
+    "template": null,
+    "params": null
+  },
+  {
+    "id": "fig-b-022",
+    "category": "performance",
+    "objective": "density-altitude-performance",
+    "prompt": "Using Figure 8, a field is 2,000 feet MSL and the altimeter setting is 30.0 inHg. What pressure altitude should be used to enter the graph?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "2,073 feet",
+        "why": "2,073 adds the correction with the wrong sign."
+      },
+      {
+        "id": "b",
+        "text": "2,000 feet",
+        "why": "2,000 ignores the table’s −73-foot correction."
+      },
+      {
+        "id": "c",
+        "text": "1,927 feet",
+        "why": "The table’s 30.0 row is −73 feet. Pressure altitude = 2,000 − 73 = 1,927 feet. Temperature is then used to find density altitude."
+      }
+    ],
+    "answer": "c",
+    "explanation": "The table’s 30.0 row is −73 feet. Pressure altitude = 2,000 − 73 = 1,927 feet. Temperature is then used to find density altitude.",
+    "memoryCue": "",
+    "acs": "PA.I.F.K2",
+    "references": [
+      {
+        "title": "FAA Airman Knowledge Testing Supplement",
+        "url": "https://www.faa.gov/sites/faa.gov/files/training_testing/testing/supplements/sport_rec_private_akts.pdf#page=42",
+        "locator": "Figure 8, printed page 2-8; actual source data and labels",
+        "edition": "FAA-CT-8080-2H, 2018",
+        "verified": "2026-10-13"
+      },
+      {
+        "title": "Pilot’s Handbook of Aeronautical Knowledge",
+        "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf#page=259",
+        "locator": "Printed page 11-3; topic: standard atmosphere",
+        "edition": "FAA-H-8083-25C, 2023",
+        "verified": "2026-10-13"
+      }
+    ],
+    "figure": {
+      "src": "assets/figure-8.png",
+      "caption": "FAA-CT-8080-2H · Figure 8",
+      "alt": "Original FAA testing supplement Figure 8, used to read the data required by this question."
+    },
+    "kind": "authored",
+    "template": null,
+    "params": null
+  },
+  {
+    "id": "fig-b-023",
+    "category": "performance",
+    "objective": "performance-charts",
+    "prompt": "In Figure 35’s standard-day column at 8,000 feet pressure altitude, what TAS in knots is listed for 2,450 rpm?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "157 knots",
+        "why": "157 knots belongs to the ISA −20°C column at the same altitude."
+      },
+      {
+        "id": "b",
+        "text": "163 knots",
+        "why": "Read the 8,000-foot row under Standard day (ISA). TAS is 163 KTS and 188 MPH. Keep the unit columns distinct."
+      },
+      {
+        "id": "c",
+        "text": "188 knots",
+        "why": "188 is the adjacent MPH value, not knots."
+      }
+    ],
+    "answer": "b",
+    "explanation": "Read the 8,000-foot row under Standard day (ISA). TAS is 163 KTS and 188 MPH. Keep the unit columns distinct.",
+    "memoryCue": "",
+    "acs": "PA.I.F.K2",
+    "references": [
+      {
+        "title": "FAA Airman Knowledge Testing Supplement",
+        "url": "https://www.faa.gov/sites/faa.gov/files/training_testing/testing/supplements/sport_rec_private_akts.pdf#page=66",
+        "locator": "Figure 35, printed page 2-32; actual source data and labels",
+        "edition": "FAA-CT-8080-2H, 2018",
+        "verified": "2026-10-13"
+      },
+      {
+        "title": "Pilot’s Handbook of Aeronautical Knowledge",
+        "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf#page=257",
+        "locator": "Printed page 11-1; topic: performance data",
+        "edition": "FAA-H-8083-25C, 2023",
+        "verified": "2026-10-13"
+      }
+    ],
+    "figure": {
+      "src": "assets/figure-35.png",
+      "caption": "FAA-CT-8080-2H · Figure 35",
+      "alt": "Original FAA testing supplement Figure 35, used to read the data required by this question."
+    },
+    "kind": "authored",
+    "template": null,
+    "params": null
+  },
+  {
+    "id": "fig-b-024",
+    "category": "performance",
+    "objective": "performance-charts",
+    "prompt": "In Figure 35’s standard-day column at 8,000 feet, what manifold pressure setting accompanies 2,450 rpm?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "19.2 inHg",
+        "why": "The standard-day 8,000-foot row lists manifold pressure 19.2 inHg. 20.8 is under ISA +20°C; 11.5 is fuel flow in gallons per hour."
+      },
+      {
+        "id": "b",
+        "text": "20.8 inHg",
+        "why": "20.8 is the warm-day column value, not the standard-day setting."
+      },
+      {
+        "id": "c",
+        "text": "11.5 inHg",
+        "why": "11.5 is GPH fuel flow, not manifold pressure."
+      }
+    ],
+    "answer": "a",
+    "explanation": "The standard-day 8,000-foot row lists manifold pressure 19.2 inHg. 20.8 is under ISA +20°C; 11.5 is fuel flow in gallons per hour.",
+    "memoryCue": "",
+    "acs": "PA.I.F.K2",
+    "references": [
+      {
+        "title": "FAA Airman Knowledge Testing Supplement",
+        "url": "https://www.faa.gov/sites/faa.gov/files/training_testing/testing/supplements/sport_rec_private_akts.pdf#page=66",
+        "locator": "Figure 35, printed page 2-32; actual source data and labels",
+        "edition": "FAA-CT-8080-2H, 2018",
+        "verified": "2026-10-13"
+      },
+      {
+        "title": "Pilot’s Handbook of Aeronautical Knowledge",
+        "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf#page=257",
+        "locator": "Printed page 11-1; topic: performance data",
+        "edition": "FAA-H-8083-25C, 2023",
+        "verified": "2026-10-13"
+      }
+    ],
+    "figure": {
+      "src": "assets/figure-35.png",
+      "caption": "FAA-CT-8080-2H · Figure 35",
+      "alt": "Original FAA testing supplement Figure 35, used to read the data required by this question."
+    },
+    "kind": "authored",
+    "template": null,
+    "params": null
+  },
+  {
+    "id": "fig-b-025",
+    "category": "performance",
+    "objective": "landing-performance",
+    "prompt": "In Figure 37’s printed worked example, what distance is required to clear a 50-foot obstacle during landing?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "1,080 feet",
+        "why": "1,080 is only ground roll."
+      },
+      {
+        "id": "b",
+        "text": "620 feet",
+        "why": "620 is the difference between total and ground roll, not total landing distance."
+      },
+      {
+        "id": "c",
+        "text": "1,700 feet",
+        "why": "The example identifies total over a 50-foot obstacle as 1,700 feet. Ground roll is 1,080 feet. The total includes both the airborne approach portion and ground roll."
+      }
+    ],
+    "answer": "c",
+    "explanation": "The example identifies total over a 50-foot obstacle as 1,700 feet. Ground roll is 1,080 feet. The total includes both the airborne approach portion and ground roll.",
+    "memoryCue": "",
+    "acs": "PA.I.F.K1",
+    "references": [
+      {
+        "title": "FAA Airman Knowledge Testing Supplement",
+        "url": "https://www.faa.gov/sites/faa.gov/files/training_testing/testing/supplements/sport_rec_private_akts.pdf#page=68",
+        "locator": "Figure 37, printed page 2-34; actual source data and labels",
+        "edition": "FAA-CT-8080-2H, 2018",
+        "verified": "2026-10-13"
+      },
+      {
+        "title": "FAA Airman Knowledge Testing Supplement",
+        "url": "https://www.faa.gov/sites/faa.gov/files/training_testing/testing/supplements/sport_rec_private_akts.pdf#page=69",
+        "locator": "Figure 38: Airplane Landing Distance Table; printed page 2-35",
+        "edition": "FAA-CT-8080-2H, June 2018",
+        "verified": "2026-10-13"
+      },
+      {
+        "title": "Pilot’s Handbook of Aeronautical Knowledge",
+        "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf#page=269",
+        "locator": "Printed page 11-13; topic: grass runway",
+        "edition": "FAA-H-8083-25C, 2023",
+        "verified": "2026-10-13"
+      }
+    ],
+    "figure": {
+      "src": "assets/figure-37.png",
+      "caption": "FAA-CT-8080-2H · Figure 37",
+      "alt": "Original FAA testing supplement Figure 37, used to read the data required by this question."
+    },
+    "kind": "authored",
+    "template": null,
+    "params": null
+  },
+  {
+    "id": "fig-b-026",
+    "category": "performance",
+    "objective": "performance-charts",
+    "prompt": "Which runway surface is an associated condition of the Figure 37 landing graph?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Any runway surface if pressure altitude is correct",
+        "why": "Correct pressure altitude alone does not satisfy surface, configuration, or braking assumptions."
+      },
+      {
+        "id": "b",
+        "text": "Paved, level, and dry",
+        "why": "The associated-conditions box specifies a paved, level, dry surface. Chart performance depends on all listed conditions; another surface requires appropriate aircraft-specific data/corrections."
+      },
+      {
+        "id": "c",
+        "text": "Dry grass with no correction needed",
+        "why": "The chart does not state dry grass; using it unchanged would ignore a published condition."
+      }
+    ],
+    "answer": "b",
+    "explanation": "The associated-conditions box specifies a paved, level, dry surface. Chart performance depends on all listed conditions; another surface requires appropriate aircraft-specific data/corrections.",
+    "memoryCue": "",
+    "acs": "PA.I.F.K2",
+    "references": [
+      {
+        "title": "FAA Airman Knowledge Testing Supplement",
+        "url": "https://www.faa.gov/sites/faa.gov/files/training_testing/testing/supplements/sport_rec_private_akts.pdf#page=68",
+        "locator": "Figure 37, printed page 2-34; actual source data and labels",
+        "edition": "FAA-CT-8080-2H, 2018",
+        "verified": "2026-10-13"
+      },
+      {
+        "title": "Pilot’s Handbook of Aeronautical Knowledge",
+        "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf#page=257",
+        "locator": "Printed page 11-1; topic: performance data",
+        "edition": "FAA-H-8083-25C, 2023",
+        "verified": "2026-10-13"
+      }
+    ],
+    "figure": {
+      "src": "assets/figure-37.png",
+      "caption": "FAA-CT-8080-2H · Figure 37",
+      "alt": "Original FAA testing supplement Figure 37, used to read the data required by this question."
+    },
+    "kind": "authored",
+    "template": null,
+    "params": null
+  },
+  {
+    "id": "fig-b-027",
+    "category": "performance",
+    "objective": "takeoff-performance",
+    "prompt": "For Figure 40’s printed worked example, what is the total takeoff distance over a 50-foot obstacle?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "2,300 feet",
+        "why": "The example lists 2,300 feet total over a 50-foot obstacle, compared with 1,375 feet of ground roll. Use total distance when obstacle clearance is the requirement."
+      },
+      {
+        "id": "b",
+        "text": "1,375 feet",
+        "why": "1,375 is ground roll only."
+      },
+      {
+        "id": "c",
+        "text": "925 feet",
+        "why": "925 is the difference between total and ground roll, not the total distance."
+      }
+    ],
+    "answer": "a",
+    "explanation": "The example lists 2,300 feet total over a 50-foot obstacle, compared with 1,375 feet of ground roll. Use total distance when obstacle clearance is the requirement.",
+    "memoryCue": "",
+    "acs": "PA.I.F.K2",
+    "references": [
+      {
+        "title": "FAA Airman Knowledge Testing Supplement",
+        "url": "https://www.faa.gov/sites/faa.gov/files/training_testing/testing/supplements/sport_rec_private_akts.pdf#page=71",
+        "locator": "Figure 40, printed page 2-37; actual source data and labels",
+        "edition": "FAA-CT-8080-2H, 2018",
+        "verified": "2026-10-13"
+      },
+      {
+        "title": "Pilot’s Handbook of Aeronautical Knowledge",
+        "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf#page=271",
+        "locator": "Printed page 11-15; topic: tailwind takeoff",
+        "edition": "FAA-H-8083-25C, 2023",
+        "verified": "2026-10-13"
+      }
+    ],
+    "figure": {
+      "src": "assets/figure-40.png",
+      "caption": "FAA-CT-8080-2H · Figure 40",
+      "alt": "Original FAA testing supplement Figure 40, used to read the data required by this question."
+    },
+    "kind": "authored",
+    "template": null,
+    "params": null
+  },
+  {
+    "id": "fig-b-028",
+    "category": "performance",
+    "objective": "takeoff-performance",
+    "prompt": "According to Figure 40’s associated conditions, when is the landing gear retracted?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "As soon as the airplane leaves the runway",
+        "why": "Immediate retraction at liftoff omits the positive-climb condition printed in this graph."
+      },
+      {
+        "id": "b",
+        "text": "Before the takeoff roll begins",
+        "why": "Starting the takeoff with gear retracted is not the stated configuration."
+      },
+      {
+        "id": "c",
+        "text": "After a positive climb is established",
+        "why": "The conditions explicitly say retract after positive climb established. The graph’s configuration assumptions must be matched; actual operating procedures come from the aircraft’s approved manual."
+      }
+    ],
+    "answer": "c",
+    "explanation": "The conditions explicitly say retract after positive climb established. The graph’s configuration assumptions must be matched; actual operating procedures come from the aircraft’s approved manual.",
+    "memoryCue": "",
+    "acs": "PA.I.F.K2",
+    "references": [
+      {
+        "title": "FAA Airman Knowledge Testing Supplement",
+        "url": "https://www.faa.gov/sites/faa.gov/files/training_testing/testing/supplements/sport_rec_private_akts.pdf#page=71",
+        "locator": "Figure 40, printed page 2-37; actual source data and labels",
+        "edition": "FAA-CT-8080-2H, 2018",
+        "verified": "2026-10-13"
+      },
+      {
+        "title": "Pilot’s Handbook of Aeronautical Knowledge",
+        "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf#page=271",
+        "locator": "Printed page 11-15; topic: tailwind takeoff",
+        "edition": "FAA-H-8083-25C, 2023",
+        "verified": "2026-10-13"
+      }
+    ],
+    "figure": {
+      "src": "assets/figure-40.png",
+      "caption": "FAA-CT-8080-2H · Figure 40",
+      "alt": "Original FAA testing supplement Figure 40, used to read the data required by this question."
+    },
+    "kind": "authored",
+    "template": null,
+    "params": null
+  },
+  {
+    "id": "fig-b-029",
+    "category": "performance",
+    "objective": "landing-performance",
+    "prompt": "Using Figure 38 at sea level and 59°F, what total 50-foot-obstacle landing distance results with an 8-knot headwind, applying the chart note?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "1,075 feet",
+        "why": "1,075 is the zero-wind value before the note’s correction."
+      },
+      {
+        "id": "b",
+        "text": "860 feet",
+        "why": "The base total is 1,075 feet. The note reduces distance by 10% for each 4 knots of headwind. Eight knots gives a 20% reduction: 1,075 × 0.80 = 860 feet."
+      },
+      {
+        "id": "c",
+        "text": "989 feet",
+        "why": "989 incorrectly treats 8 knots as an 8% reduction."
+      }
+    ],
+    "answer": "b",
+    "explanation": "The base total is 1,075 feet. The note reduces distance by 10% for each 4 knots of headwind. Eight knots gives a 20% reduction: 1,075 × 0.80 = 860 feet.",
+    "memoryCue": "",
+    "acs": "PA.I.F.K1",
+    "references": [
+      {
+        "title": "FAA Airman Knowledge Testing Supplement",
+        "url": "https://www.faa.gov/sites/faa.gov/files/training_testing/testing/supplements/sport_rec_private_akts.pdf#page=69",
+        "locator": "Figure 38, printed page 2-35; actual source data and labels",
+        "edition": "FAA-CT-8080-2H, 2018",
+        "verified": "2026-10-13"
+      },
+      {
+        "title": "FAA Airman Knowledge Testing Supplement",
+        "url": "https://www.faa.gov/sites/faa.gov/files/training_testing/testing/supplements/sport_rec_private_akts.pdf#page=69",
+        "locator": "Figure 38: Airplane Landing Distance Table; printed page 2-35",
+        "edition": "FAA-CT-8080-2H, June 2018",
+        "verified": "2026-10-13"
+      },
+      {
+        "title": "Pilot’s Handbook of Aeronautical Knowledge",
+        "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf#page=269",
+        "locator": "Printed page 11-13; topic: grass runway",
+        "edition": "FAA-H-8083-25C, 2023",
+        "verified": "2026-10-13"
+      }
+    ],
+    "figure": {
+      "src": "assets/figure-38.png",
+      "caption": "FAA-CT-8080-2H · Figure 38",
+      "alt": "Original FAA testing supplement Figure 38, used to read the data required by this question."
+    },
+    "kind": "authored",
+    "template": null,
+    "params": null
+  },
+  {
+    "id": "fig-b-030",
+    "category": "performance",
+    "objective": "crosswind-component",
+    "prompt": "Using Figure 36, approximately what crosswind component results from a 50-knot wind 60 degrees from the runway?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "43 knots",
+        "why": "Trace the 60-degree line to the 50-knot wind arc, then project to the crosswind axis. Approximately 43 knots; independently, 50 × sin(60°) = 43.3."
+      },
+      {
+        "id": "b",
+        "text": "25 knots",
+        "why": "25 knots is the headwind component: 50 × cos(60°)."
+      },
+      {
+        "id": "c",
+        "text": "50 knots",
+        "why": "The full 50-knot wind is crosswind only at a 90-degree angle."
+      }
+    ],
+    "answer": "a",
+    "explanation": "Trace the 60-degree line to the 50-knot wind arc, then project to the crosswind axis. Approximately 43 knots; independently, 50 × sin(60°) = 43.3.",
+    "memoryCue": "",
+    "acs": "PA.I.F.K2d",
+    "references": [
+      {
+        "title": "FAA Airman Knowledge Testing Supplement",
+        "url": "https://www.faa.gov/sites/faa.gov/files/training_testing/testing/supplements/sport_rec_private_akts.pdf#page=67",
+        "locator": "Figure 36, printed page 2-33; actual source data and labels",
+        "edition": "FAA-CT-8080-2H, 2018",
+        "verified": "2026-10-13"
+      },
+      {
+        "title": "FAA Airman Knowledge Testing Supplement",
+        "url": "https://www.faa.gov/sites/faa.gov/files/training_testing/testing/supplements/sport_rec_private_akts.pdf#page=67",
+        "locator": "Figure 36: Crosswind Component Graph; printed page 2-33",
+        "edition": "FAA-CT-8080-2H, June 2018",
+        "verified": "2026-10-13"
+      },
+      {
+        "title": "Pilot’s Handbook of Aeronautical Knowledge",
+        "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf#page=271",
+        "locator": "Printed page 11-15; topic: headwind takeoff",
+        "edition": "FAA-H-8083-25C, 2023",
+        "verified": "2026-10-13"
+      }
+    ],
+    "figure": {
+      "src": "assets/figure-36.png",
+      "caption": "FAA-CT-8080-2H · Figure 36",
+      "alt": "Original FAA testing supplement Figure 36, used to read the data required by this question."
+    },
+    "kind": "authored",
+    "template": null,
+    "params": null
+  },
+  {
+    "id": "fig-b-031",
+    "category": "weightbalance",
+    "objective": "cg-limits",
+    "prompt": "Using Figure 33, a 2,500-lb airplane has total moment/100 of 1,900. What does its listed moment range show?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "The CG is aft of the allowed moment range",
+        "why": "An aft CG would produce a moment above 2,143, not below 1,932."
+      },
+      {
+        "id": "b",
+        "text": "It is within the listed moment range",
+        "why": "1,900 lies outside, not inside, the table’s range."
+      },
+      {
+        "id": "c",
+        "text": "The CG is forward of the allowed moment range",
+        "why": "At 2,500 lb, the table allows moment/100 from 1,932 through 2,143. 1,900 is less than the minimum, so the CG is too far forward for that weight."
+      }
+    ],
+    "answer": "c",
+    "explanation": "At 2,500 lb, the table allows moment/100 from 1,932 through 2,143. 1,900 is less than the minimum, so the CG is too far forward for that weight.",
+    "memoryCue": "",
+    "acs": "PA.I.F.K2f",
+    "references": [
+      {
+        "title": "FAA Airman Knowledge Testing Supplement",
+        "url": "https://www.faa.gov/sites/faa.gov/files/training_testing/testing/supplements/sport_rec_private_akts.pdf#page=64",
+        "locator": "Figure 33, printed page 2-30; actual source data and labels",
+        "edition": "FAA-CT-8080-2H, 2018",
+        "verified": "2026-10-13"
+      },
+      {
+        "title": "Pilot’s Handbook of Aeronautical Knowledge",
+        "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf#page=245",
+        "locator": "Printed page 10-1; topic: cg envelope",
+        "edition": "FAA-H-8083-25C, 2023",
+        "verified": "2026-10-13"
+      }
+    ],
+    "figure": {
+      "src": "assets/figure-33.png",
+      "caption": "FAA-CT-8080-2H · Figure 33",
+      "alt": "Original FAA testing supplement Figure 33, used to read the data required by this question."
+    },
+    "kind": "authored",
+    "template": null,
+    "params": null
+  },
+  {
+    "id": "fig-b-032",
+    "category": "weightbalance",
+    "objective": "cg-limits",
+    "prompt": "Using Figure 33, does 2,600 lb with moment/100 of 2,200 satisfy the listed moment limits at that weight?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "No; it is below the forward moment limit",
+        "why": "2,200 is greater than the minimum 2,037."
+      },
+      {
+        "id": "b",
+        "text": "Yes; 2,200 is between 2,037 and 2,224",
+        "why": "The 2,600-lb row lists minimum 2,037 and maximum 2,224. 2,200 is inside those limits. This conclusion concerns the displayed moment range, not every aircraft operating limitation."
+      },
+      {
+        "id": "c",
+        "text": "No; it exceeds the aft moment limit",
+        "why": "2,200 is less than the maximum 2,224."
+      }
+    ],
+    "answer": "b",
+    "explanation": "The 2,600-lb row lists minimum 2,037 and maximum 2,224. 2,200 is inside those limits. This conclusion concerns the displayed moment range, not every aircraft operating limitation.",
+    "memoryCue": "",
+    "acs": "PA.I.F.K2f",
+    "references": [
+      {
+        "title": "FAA Airman Knowledge Testing Supplement",
+        "url": "https://www.faa.gov/sites/faa.gov/files/training_testing/testing/supplements/sport_rec_private_akts.pdf#page=64",
+        "locator": "Figure 33, printed page 2-30; actual source data and labels",
+        "edition": "FAA-CT-8080-2H, 2018",
+        "verified": "2026-10-13"
+      },
+      {
+        "title": "Pilot’s Handbook of Aeronautical Knowledge",
+        "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf#page=245",
+        "locator": "Printed page 10-1; topic: cg envelope",
+        "edition": "FAA-H-8083-25C, 2023",
+        "verified": "2026-10-13"
+      }
+    ],
+    "figure": {
+      "src": "assets/figure-33.png",
+      "caption": "FAA-CT-8080-2H · Figure 33",
+      "alt": "Original FAA testing supplement Figure 33, used to read the data required by this question."
+    },
+    "kind": "authored",
+    "template": null,
+    "params": null
+  },
+  {
+    "id": "fig-b-033",
+    "category": "weightbalance",
+    "objective": "loaded-cg",
+    "prompt": "Using Figure 33’s minimum moment/100 at 2,300 lb, what is the approximate forward CG limit in inches?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "77.0 inches",
+        "why": "The minimum moment/100 is 1,771. Restore full moment: 177,100 lb-in. CG = 177,100 / 2,300 = 77.0 inches."
+      },
+      {
+        "id": "b",
+        "text": "0.77 inch",
+        "why": "0.77 forgets to restore the table’s moment/100 scale."
+      },
+      {
+        "id": "c",
+        "text": "85.7 inches",
+        "why": "85.7 is approximately the aft limit using the maximum moment, not the minimum."
+      }
+    ],
+    "answer": "a",
+    "explanation": "The minimum moment/100 is 1,771. Restore full moment: 177,100 lb-in. CG = 177,100 / 2,300 = 77.0 inches.",
+    "memoryCue": "",
+    "acs": "PA.I.F.K2f",
+    "references": [
+      {
+        "title": "FAA Airman Knowledge Testing Supplement",
+        "url": "https://www.faa.gov/sites/faa.gov/files/training_testing/testing/supplements/sport_rec_private_akts.pdf#page=64",
+        "locator": "Figure 33, printed page 2-30; actual source data and labels",
+        "edition": "FAA-CT-8080-2H, 2018",
+        "verified": "2026-10-13"
+      },
+      {
+        "title": "Pilot’s Handbook of Aeronautical Knowledge",
+        "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf#page=249",
+        "locator": "Printed page 10-5; topic: cg definition",
+        "edition": "FAA-H-8083-25C, 2023",
+        "verified": "2026-10-13"
+      }
+    ],
+    "figure": {
+      "src": "assets/figure-33.png",
+      "caption": "FAA-CT-8080-2H · Figure 33",
+      "alt": "Original FAA testing supplement Figure 33, used to read the data required by this question."
+    },
+    "kind": "authored",
+    "template": null,
+    "params": null
+  },
+  {
+    "id": "fig-b-034",
+    "category": "weightbalance",
+    "objective": "loaded-cg",
+    "prompt": "Using Figure 32, what full moment is assigned to a 200-lb rear-seat occupant?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "242 lb-in",
+        "why": "242 is the scaled index, not full moment."
+      },
+      {
+        "id": "b",
+        "text": "17,000 lb-in",
+        "why": "17,000 lb-in is the 200-lb front-seat moment, using its 85-inch arm."
+      },
+      {
+        "id": "c",
+        "text": "24,200 lb-in",
+        "why": "The rear-seat 200-lb row lists moment/100 of 242. Restore the scale: 242 × 100 = 24,200 lb-in. This is consistent with the stated rear-seat arm of 121 inches."
+      }
+    ],
+    "answer": "c",
+    "explanation": "The rear-seat 200-lb row lists moment/100 of 242. Restore the scale: 242 × 100 = 24,200 lb-in. This is consistent with the stated rear-seat arm of 121 inches.",
+    "memoryCue": "",
+    "acs": "PA.I.F.K2f",
+    "references": [
+      {
+        "title": "FAA Airman Knowledge Testing Supplement",
+        "url": "https://www.faa.gov/sites/faa.gov/files/training_testing/testing/supplements/sport_rec_private_akts.pdf#page=63",
+        "locator": "Figure 32, printed page 2-29; actual source data and labels",
+        "edition": "FAA-CT-8080-2H, 2018",
+        "verified": "2026-10-13"
+      },
+      {
+        "title": "Pilot’s Handbook of Aeronautical Knowledge",
+        "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf#page=249",
+        "locator": "Printed page 10-5; topic: cg definition",
+        "edition": "FAA-H-8083-25C, 2023",
+        "verified": "2026-10-13"
+      }
+    ],
+    "figure": {
+      "src": "assets/figure-32.png",
+      "caption": "FAA-CT-8080-2H · Figure 32",
+      "alt": "Original FAA testing supplement Figure 32, used to read the data required by this question."
+    },
+    "kind": "authored",
+    "template": null,
+    "params": null
+  },
+  {
+    "id": "fig-b-035",
+    "category": "weightbalance",
+    "objective": "load-changes",
+    "prompt": "In Figure 32, compare 15 gallons in the main and auxiliary tanks. How much greater is the auxiliary-tank moment, using the rounded table values?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "0 lb-in",
+        "why": "Equal fuel weight does not give equal moment when the tank arms differ."
+      },
+      {
+        "id": "b",
+        "text": "1,700 lb-in",
+        "why": "For 15 gallons, main moment/100 is 68 and auxiliary is 85. Difference = (85 − 68) × 100 = 1,700 lb-in. Both weigh 90 lb, but their arms differ."
+      },
+      {
+        "id": "c",
+        "text": "17 lb-in",
+        "why": "17 is the difference in the scaled indexes before multiplying by 100."
+      }
+    ],
+    "answer": "b",
+    "explanation": "For 15 gallons, main moment/100 is 68 and auxiliary is 85. Difference = (85 − 68) × 100 = 1,700 lb-in. Both weigh 90 lb, but their arms differ.",
+    "memoryCue": "",
+    "acs": "PA.I.F.K2f",
+    "references": [
+      {
+        "title": "FAA Airman Knowledge Testing Supplement",
+        "url": "https://www.faa.gov/sites/faa.gov/files/training_testing/testing/supplements/sport_rec_private_akts.pdf#page=63",
+        "locator": "Figure 32, printed page 2-29; actual source data and labels",
+        "edition": "FAA-CT-8080-2H, 2018",
+        "verified": "2026-10-13"
+      },
+      {
+        "title": "Pilot’s Handbook of Aeronautical Knowledge",
+        "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf#page=248",
+        "locator": "Printed page 10-4; topic: cg fuel burn",
+        "edition": "FAA-H-8083-25C, 2023",
+        "verified": "2026-10-13"
+      }
+    ],
+    "figure": {
+      "src": "assets/figure-32.png",
+      "caption": "FAA-CT-8080-2H · Figure 32",
+      "alt": "Original FAA testing supplement Figure 32, used to read the data required by this question."
+    },
+    "kind": "authored",
+    "template": null,
+    "params": null
+  },
+  {
+    "id": "fig-b-036",
+    "category": "weightbalance",
+    "objective": "cg-limits",
+    "prompt": "Using Figure 34’s envelopes, a 2,200-lb loaded airplane has moment/1,000 of 90. Which shown envelope contains that point?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Normal category only",
+        "why": "Plot 90 on the moment/1,000 axis and 2,200 lb vertically. The point is inside the solid normal envelope; the dashed utility envelope ends at 2,000 lb."
+      },
+      {
+        "id": "b",
+        "text": "Utility category only",
+        "why": "Utility is limited to the lower dashed region ending at 2,000 lb."
+      },
+      {
+        "id": "c",
+        "text": "Both normal and utility categories",
+        "why": "The point exceeds the displayed utility-envelope weight boundary."
+      }
+    ],
+    "answer": "a",
+    "explanation": "Plot 90 on the moment/1,000 axis and 2,200 lb vertically. The point is inside the solid normal envelope; the dashed utility envelope ends at 2,000 lb.",
+    "memoryCue": "",
+    "acs": "PA.I.F.K2f",
+    "references": [
+      {
+        "title": "FAA Airman Knowledge Testing Supplement",
+        "url": "https://www.faa.gov/sites/faa.gov/files/training_testing/testing/supplements/sport_rec_private_akts.pdf#page=65",
+        "locator": "Figure 34, printed page 2-31; actual source data and labels",
+        "edition": "FAA-CT-8080-2H, 2018",
+        "verified": "2026-10-13"
+      },
+      {
+        "title": "Pilot’s Handbook of Aeronautical Knowledge",
+        "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf#page=245",
+        "locator": "Printed page 10-1; topic: cg envelope",
+        "edition": "FAA-H-8083-25C, 2023",
+        "verified": "2026-10-13"
+      }
+    ],
+    "figure": {
+      "src": "assets/figure-34.png",
+      "caption": "FAA-CT-8080-2H · Figure 34",
+      "alt": "Original FAA testing supplement Figure 34, used to read the data required by this question."
+    },
+    "kind": "authored",
+    "template": null,
+    "params": null
+  }
+]
