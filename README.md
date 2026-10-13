@@ -8,6 +8,10 @@ Personal FAA PAR study webapp. Buildless HTML/CSS/JavaScript with IndexedDB, a s
 
 The hosted deployment uses `.openai/hosting.json` and the Sites source/publishing helper. Preserve its project ID. No runtime secrets or paid APIs are required.
 
+## Vercel
+
+Import this repository with the repository root as Root Directory. `vercel.json` selects the Other framework preset, runs `npm run build`, and serves `dist/`, where `index.html` and the app assets live. Do not set the Root Directory to `dist`; the build script and deployment configuration are in the repository root. Git pushes to `main` trigger a production deployment when the repository is connected to Vercel. No environment variables are required.
+
 ## Tests
 
 `node --test scripts/engine.test.mjs` checks scoring, schedules, exam proportions/timing, 500 independently recomputed generated scenarios, adaptive batches, import safety, and full backup fidelity. The ACS-existence content check uses `work/sources/acs.txt` in the original workspace; the source archive includes an ACS code index for portable checks.
