@@ -1,17 +1,17 @@
-export const VERSION='2026.10.13.7';
+export const VERSION='2026.10.13.8';
 export const CATEGORIES=[
- ['regulations','Regulations & privileges','Rules for the pilot in command',60,'shield','#7471e8'],
+ ['regulations','Regulations & Privileges','Rules for the pilot in command',60,'shield','#7471e8'],
  ['airspace','Airspace & VFR','Know where you can fly',60,'layers','#498cea'],
- ['airports','Airports & communications','Signs, lights, and the radio',50,'tower','#e79c40'],
+ ['airports','Airports & Communications','Signs, lights, and the radio',50,'tower','#e79c40'],
  ['aerodynamics','Aerodynamics','The principles behind flight',50,'wing','#37a792'],
- ['systems','Aircraft systems','Know your airplane',40,'gear','#7c8ea9'],
- ['instruments','Flight instruments','Read and interpret the panel',40,'gauge','#5899b3'],
+ ['systems','Aircraft Systems','Know your airplane',40,'gear','#7c8ea9'],
+ ['instruments','Flight Instruments','Read and interpret the panel',40,'gauge','#5899b3'],
  ['weather','Weather','Theory, reports, and forecasts',80,'cloud','#4a93d6'],
- ['performance','Aircraft performance','Limits, charts, and planning',50,'chart','#9d77d8'],
- ['weightbalance','Weight & balance','Loading, moments, and CG',40,'balance','#ca889d'],
- ['navigation','Navigation & charts','Find your way with confidence',60,'compass','#6a99a4'],
- ['planning','Cross-country planning','Time, fuel, and flight calculations',40,'route','#72905f'],
- ['human','Human factors & ADM','Better decisions in the cockpit',30,'heart','#ce8881']
+ ['performance','Aircraft Performance','Limits, charts, and planning',50,'chart','#9d77d8'],
+ ['weightbalance','Weight & Balance','Loading, moments, and CG',40,'balance','#ca889d'],
+ ['navigation','Navigation & Charts','Find your way with confidence',60,'compass','#6a99a4'],
+ ['planning','Cross-Country Planning','Time, fuel, and flight calculations',40,'route','#72905f'],
+ ['human','Human Factors & ADM','Better decisions in the cockpit',30,'heart','#ce8881']
 ].map(([id,name,subtitle,count,icon,color])=>({id,name,subtitle,count,icon,color}));
 export const freshState=()=>({schema:1,contentVersion:VERSION,attempts:[],bookmarks:[],reviews:{},generated:[],packs:[],extras:{},exams:[],boldmethodHistory:[],session:null,lastResult:null,settings:{theme:'system',daily:20}});
 export const shuffle=(items,random=Math.random)=>{const out=[...items];for(let i=out.length-1;i>0;i--){let j=Math.floor(random()*(i+1));[out[i],out[j]]=[out[j],out[i]];}return out;};
@@ -32,7 +32,7 @@ export function validateBackup(input){
  const s=input.state;if(!s||s.schema!==1||!Array.isArray(s.attempts)||!Array.isArray(s.bookmarks)||!Array.isArray(s.generated)||!Array.isArray(s.packs)||!Array.isArray(s.exams)||!s.settings||!s.reviews||!s.extras)throw Error('Backup is incomplete.');
  validateBank([...s.generated,...s.packs]);
  if(s.attempts.some(a=>typeof a.questionId!=='string'||typeof a.correct!=='boolean'||!Number.isFinite(a.at)||!['quiz','exam'].includes(a.mode)))throw Error('Invalid attempt history.');
- if(s.bookmarks.some(x=>typeof x!=='string')||!['light','dark','system'].includes(s.settings.theme)||![10,20].includes(s.settings.daily))throw Error('Invalid preferences or bookmarks.');
+ if(s.bookmarks.some(x=>typeof x!=='string')||!['light','dark','system'].includes(s.settings.theme)||![10,20,30,40,60].includes(s.settings.daily))throw Error('Invalid preferences or bookmarks.');
  Object.entries(s.reviews).forEach(([id,r])=>{if(['__proto__','constructor','prototype'].includes(id)||!Number.isFinite(r.due)||!Number.isInteger(r.streak)||r.streak<0)throw Error('Invalid review schedule.');});
  if(s.boldmethodHistory!==undefined){if(!Array.isArray(s.boldmethodHistory))throw Error('Invalid Boldmethod journal.');s.boldmethodHistory.forEach(e=>{let u;try{u=new URL(e.url);}catch{throw Error('Invalid Boldmethod URL.');}if(u.protocol!=='https:'||!['boldmethod.com','www.boldmethod.com'].includes(u.hostname)||typeof e.title!=='string'||e.title.length>180||!Number.isFinite(e.at)||(e.score!==null&&(!Number.isFinite(e.score)||e.score<0||e.score>100)))throw Error('Invalid Boldmethod journal entry.');});}
  Object.entries(s.extras).forEach(([id,e])=>{if(!/^[a-z0-9-]{1,100}$/.test(id)||!Array.isArray(e.ids)||e.ids.some(v=>typeof v!=='string')||typeof e.review!=='boolean')throw Error('Invalid extra-practice queue.');});
